@@ -68,3 +68,13 @@ profiles/*/bin/
 # ── Backup configs ─────────────────────────────────────────
 config.yaml.bak.*
 *.bak
+
+# ── Runtime artifacts ─────────────────────────────────────
+.usage.json
+verification_evidence.db
+interrupt_debug.log
+
+# ── Skills (only track fbox-specific ones) ────────────────
+skills/*
+!skills/foreverbox/
+!skills/autonomous-ai-agents/foreverbox-operations/

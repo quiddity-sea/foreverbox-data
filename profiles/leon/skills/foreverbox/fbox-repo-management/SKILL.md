@@ -26,6 +26,7 @@ Map human-readable repo names to their local paths. Extend this list when new re
 | Name | Local path | Remote |
 |------|-----------|--------|
 | `council-library` | `/foreverbox_data/council-library` | `github.com/quiddity-sea/council-library` (private) |
+| `foreverbox-data` | `/foreverbox_data` | `github.com/quiddity-sea/foreverbox-data` (private) |
 
 ### Usage pattern
 
