@@ -1,0 +1,8 @@
+
+ Profile          Model                        Gateway      Alias        Distribution
+ ───────────────    ───────────────────────────    ───────────    ───────────    ────────────────────
+  default         Zeon7-Gemma:latest           stopped      —            —
+  gemma           —                            stopped      —            —
+  leon            —                            stopped      —            —
+  otec            —                            stopped      —            —
+ ◆zeon7           Zeon7-Gemma:latest           running      —            —

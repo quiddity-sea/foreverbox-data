@@ -1,0 +1,70 @@
+# ── council-library: tracked as empty shell ──────────────────
+# The live council-library repo (quiddity-sea/council-library)
+# lives independently in this folder. Git tracks only the folder
+# itself, never its contents. Pulling this repo will NOT overwrite
+# your council-library working tree.
+/council-library/*
+!/council-library/.gitkeep
+
+# ── Secrets & credentials ─────────────────────────────────
+.env
+*.env
+auth.json
+
+# ── Runtime state (Hermes) ────────────────────────────────
+state.db
+state.db-shm
+state.db-wal
+response_store.db
+kanban.db
+kanban.db.dispatch.lock
+kanban.db.init.lock
+gateway.lock
+gateway_state.json
+channel_directory.json
+active_profile
+auth.lock
+
+# ── Caches ─────────────────────────────────────────────────
+cache/
+models_dev_cache.json
+ollama_cloud_models_cache.json
+provider_models_cache.json
+context_length_cache.yaml
+.skills_prompt_snapshot.json
+.update_check
+.hermes_history
+
+# ── Media caches ───────────────────────────────────────────
+audio_cache/
+image_cache/
+temp/
+
+# ── Sessions, logs, memories ───────────────────────────────
+sessions/
+logs/
+memories/
+pairing/
+sandboxes/
+backups/
+
+# ── Cron state ─────────────────────────────────────────────
+cron/
+
+# ── OS / Editor ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ── Build artifacts & dependencies ─────────────────────────
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+profiles/*/lsp/
+profiles/*/bin/
+
+# ── Backup configs ─────────────────────────────────────────
+config.yaml.bak.*
+*.bak

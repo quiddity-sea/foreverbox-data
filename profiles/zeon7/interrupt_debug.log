@@ -1,0 +1,6 @@
+18:28:52 ENTER: queued interrupt msg='well?', agent_running=True
+18:28:52 interrupt fired: msg='well?', children=0, parent._interrupt=True
+18:29:38 interrupt fired: msg='so where is it wahts i called', children=0, parent._interrupt=True
+18:29:38 ENTER: queued interrupt msg='so where is it wahts i called', agent_running=True
+11:38:39 interrupt fired: msg='[Pasted text #1: 8 lines → /foreverbox_data/profiles/zeon7/p', children=0, parent._interrupt=True
+11:38:39 ENTER: queued interrupt msg='[Pasted text #1: 8 lines → /foreverbox_data/profiles/zeon7/p', agent_running=True

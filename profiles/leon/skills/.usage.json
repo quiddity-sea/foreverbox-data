@@ -1,0 +1,80 @@
+{
+  "council-library-cli": {
+    "archived_at": null,
+    "created_at": "2026-07-14T18:08:08.379153+00:00",
+    "created_by": null,
+    "last_patched_at": "2026-07-15T19:58:34.523191+00:00",
+    "last_used_at": "2026-07-15T19:58:27.307860+00:00",
+    "last_viewed_at": "2026-07-15T19:58:27.299610+00:00",
+    "patch_count": 2,
+    "pinned": false,
+    "state": "active",
+    "use_count": 5,
+    "view_count": 5
+  },
+  "fbox-repo-management": {
+    "archived_at": null,
+    "created_at": "2026-07-16T11:52:29.271441+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-07-16T11:52:29.274147+00:00",
+    "last_viewed_at": "2026-07-16T11:52:29.271452+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
+  "foreverbox-operations": {
+    "archived_at": null,
+    "created_at": "2026-07-14T05:22:54.333677+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-07-16T11:39:19.648697+00:00",
+    "last_used_at": "2026-07-16T11:38:40.867205+00:00",
+    "last_viewed_at": "2026-07-16T11:38:40.858349+00:00",
+    "patch_count": 192,
+    "pinned": false,
+    "state": "active",
+    "use_count": 85,
+    "view_count": 85
+  },
+  "github-auth": {
+    "archived_at": null,
+    "created_at": "2026-07-14T15:36:27.013566+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-07-14T15:36:27.016376+00:00",
+    "last_viewed_at": "2026-07-14T15:36:27.013581+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
+  "hermes-agent": {
+    "archived_at": null,
+    "created_at": "2026-07-14T05:00:17.149012+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-07-15T18:36:23.165164+00:00",
+    "last_viewed_at": "2026-07-15T18:36:23.161667+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 6,
+    "view_count": 6
+  },
+  "quiddity-folder-manager": {
+    "archived_at": null,
+    "created_at": "2026-07-14T18:57:49.730092+00:00",
+    "created_by": null,
+    "last_patched_at": "2026-07-14T19:28:53.991888+00:00",
+    "last_used_at": "2026-07-15T20:08:43.633551+00:00",
+    "last_viewed_at": "2026-07-15T20:08:43.630174+00:00",
+    "patch_count": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 3,
+    "view_count": 3
+  }
+}

@@ -1,0 +1,16 @@
+To solve this, you need to identify the pattern in the transformation of these strings.
+
+### The Puzzle
+
+Transform the following sequence:
+
+* **A** becomes **4**
+* **B** becomes **8**
+* **C** becomes **12**
+* **D** becomes **16**
+
+Based on this logic, what is the value of **"GEMINI"**?
+
+---
+
+*Hint: Think about character positioning within the standard Latin alphabet.*

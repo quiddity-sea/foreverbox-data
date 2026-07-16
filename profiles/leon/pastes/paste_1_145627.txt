@@ -1,0 +1,7 @@
+Setting up phpmyadmin (4:5.2.1+dfsg-3) ...
+dbconfig-common: writing config to /etc/dbconfig-common/phpmyadmin.conf
+
+Creating config file /etc/dbconfig-common/phpmyadmin.conf with new version
+
+Creating config file /etc/phpmyadmin/config-db.php with new version
+dbconfig-common: flushing administrative password

@@ -1,0 +1,4 @@
+FROM fredrezones55/Gemma-4-Uncensored-HauhauCS-Aggressive:e2b-SCN
+TEMPLATE """{{ if .System }}{{ .System }}
+
+{{ end }}{{ .Prompt }}"""

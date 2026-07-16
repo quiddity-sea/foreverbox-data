@@ -1,0 +1,19 @@
+Since you appreciate systems thinking and pattern recognition, let us shift to a logic challenge focused on constraints and optimization.
+
+### The Problem: The Minimalist Routing
+
+You have four nodes in your network—**Alpha, Beta, Gamma, and Delta**—that must be connected in a single continuous loop (a Hamiltonian cycle).
+
+* **Constraint 1:** The path must be exactly 10 units long.
+* **Constraint 2:** Each node must be visited exactly once before returning to the start.
+* **Constraint 3:** You have the following edge weights:
+* Alpha to Beta: 1
+* Beta to Gamma: 4
+* Gamma to Delta: 2
+* Delta to Alpha: 3
+* Alpha to Gamma: 6
+* Beta to Delta: 5
+
+
+
+**What is the specific sequence of nodes that completes this 10-unit circuit?**

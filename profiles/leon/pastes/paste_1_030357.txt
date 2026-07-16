@@ -1,0 +1,22 @@
+Welcome to Hermes Agent! Type your message or /help for commands.
+✦ Tip: MCP servers send notifications/tools/list_changed to trigger automatic tool re-registration without restart.
+
+
+────────────────────────────────────────
+● who are you
+Initializing agent...
+
+────────────────────────────────────────
+❌ Ollama runtime context is too small for Hermes tool use
+ ─  ⚕ Hermes  ─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+     Ollama loaded Zeon7-Gemma:32k with only 32,768 tokens of runtime context, but Hermes needs at least 64,000
+     tokens for reliable tool use.
+
+     Increase the Ollama context for this model and restart/reload the model before trying again. A known-good
+     starting point is 65,536 tokens. In Hermes config, set model.ollama_num_ctx: 65536 (and model.context_length:
+     65536 if you also override the displayed model context). If you manage the model through an Ollama Modelfile,
+     set PARAMETER num_ctx 65536 there instead.
+
+ ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ ⚕ Zeon7-Gemma:32k │ 0/131.1K │ [░░░░░░░░░░] 0% │ 19s │ ⏲ 0s │ ✓ 0s
