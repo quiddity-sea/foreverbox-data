@@ -89,6 +89,29 @@ git commit -m "$MESSAGE"
 git push origin main
 ```
 
+### Step 5: Summarise
+
+After the push, report back with:
+- The commit hash (short form: `git log --oneline -1`)
+- The full commit message
+- Files changed count and insertions/deletions (from `git diff --stat HEAD~1`)
+- The remote and branch pushed to
+
+Example summary output:
+
+```
+Committed abc1234 — pushed to origin/main
+
+  refactor: consolidate fbox skills into Shared_Skills with symlinks
+
+  Skills:
+  - All 5 fbox skills moved to Shared_Skills/foreverbox/
+  - Renamed with fbox- prefix
+  - Old copies deleted, symlinks created
+
+  148 files changed, 94 insertions(+), 10312 deletions(-)
+```
+
 ### Anti-patterns
 
 - **NEVER** `git commit -am "updated files"` — always generate a detailed message from `git diff`
