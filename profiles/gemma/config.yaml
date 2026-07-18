@@ -9,6 +9,13 @@ hooks:
     - cognitive_router.on_turn_start
   post_turn:
     - cognitive_router.on_turn_end
+  tavily:
+    command: npx
+    args:
+      - -y
+      - '@tavily/mcp-server'
+    env:
+      TAVILY_API_KEY: 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
 _config_version: 33
 plugins:
   enabled:

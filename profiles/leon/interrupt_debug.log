@@ -20,3 +20,5 @@
 21:09:39 interrupt fired: msg='yes there are no council-skills that are exclusive to one ag', children=0, parent._interrupt=True
 13:00:05 ENTER: queued interrupt msg='where is the fbox git hub skill stored?', agent_running=True
 13:00:05 interrupt fired: msg='where is the fbox git hub skill stored?', children=0, parent._interrupt=True
+13:20:26 interrupt fired: msg='stop', children=0, parent._interrupt=True
+13:20:26 ENTER: queued interrupt msg='stop', agent_running=True

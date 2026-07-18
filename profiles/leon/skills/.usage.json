@@ -12,6 +12,32 @@
     "use_count": 5,
     "view_count": 5
   },
+  "fbox-ftn-production": {
+    "archived_at": null,
+    "created_at": "2026-07-16T12:17:48.535507+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-07-16T21:59:55.459281+00:00",
+    "last_used_at": "2026-07-17T18:15:56.506882+00:00",
+    "last_viewed_at": "2026-07-17T18:15:56.504046+00:00",
+    "patch_count": 3,
+    "pinned": false,
+    "state": "active",
+    "use_count": 10,
+    "view_count": 10
+  },
+  "fbox-operations": {
+    "archived_at": null,
+    "created_at": "2026-07-16T12:15:29.397233+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-07-18T10:15:40.423930+00:00",
+    "last_viewed_at": "2026-07-18T10:15:40.413008+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 7,
+    "view_count": 7
+  },
   "fbox-repo-management": {
     "archived_at": null,
     "created_at": "2026-07-16T11:52:29.271441+00:00",
@@ -37,6 +63,19 @@
     "state": "active",
     "use_count": 87,
     "view_count": 87
+  },
+  "foreverbox/fbox-ftn-production": {
+    "archived_at": null,
+    "created_at": "2026-07-17T18:02:13.921065+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-07-17T18:03:29.943812+00:00",
+    "last_viewed_at": "2026-07-17T18:03:29.941101+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 2,
+    "view_count": 2
   },
   "github-auth": {
     "archived_at": null,

@@ -1,9 +1,9 @@
 {
-  "last_report_path": null,
-  "last_run_at": "2026-07-10T14:22:01.230415+00:00",
-  "last_run_duration_seconds": null,
-  "last_run_summary": "deferred first run — curator seeded, will run after one interval; use `hermes curator run --dry-run` to preview now",
+  "last_report_path": "/foreverbox_data/profiles/zeon7/logs/curator/20260717-143348",
+  "last_run_at": "2026-07-17T14:33:48.892988+00:00",
+  "last_run_duration_seconds": 0.685021,
+  "last_run_summary": "auto: no changes; llm: skipped (consolidation off)",
   "last_run_summary_shown_at": null,
   "paused": false,
-  "run_count": 0
+  "run_count": 1
 }

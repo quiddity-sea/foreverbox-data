@@ -73,6 +73,11 @@ config.yaml.bak.*
 .usage.json
 verification_evidence.db
 interrupt_debug.log
+processes.json
+.curator_state
+.curator_backups/
+.hub/
+pastes/
 
 # ── Skills (only track fbox-specific ones) ────────────────
 skills/*
