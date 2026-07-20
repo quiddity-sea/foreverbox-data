@@ -82,13 +82,13 @@
     "created_at": "2026-07-16T12:15:29.397233+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": "2026-07-20T16:33:42.134944+00:00",
-    "last_viewed_at": "2026-07-20T16:33:42.132259+00:00",
+    "last_used_at": "2026-07-20T17:26:35.611906+00:00",
+    "last_viewed_at": "2026-07-20T17:26:35.608640+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 34,
-    "view_count": 34
+    "use_count": 36,
+    "view_count": 36
   },
   "fbox-quiddity-taxonomy-management": {
     "archived_at": null,
@@ -146,14 +146,14 @@
     "archived_at": null,
     "created_at": "2026-07-20T15:25:38.315393+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-07-20T15:53:17.457642+00:00",
-    "last_used_at": "2026-07-20T15:53:03.610747+00:00",
-    "last_viewed_at": "2026-07-20T15:53:03.607039+00:00",
-    "patch_count": 2,
+    "last_patched_at": "2026-07-20T17:17:25.466780+00:00",
+    "last_used_at": "2026-07-20T17:17:42.811746+00:00",
+    "last_viewed_at": "2026-07-20T17:17:42.808057+00:00",
+    "patch_count": 3,
     "pinned": false,
     "state": "active",
-    "use_count": 3,
-    "view_count": 3
+    "use_count": 8,
+    "view_count": 8
   },
   "foreverbox-operations": {
     "archived_at": null,
@@ -180,6 +180,19 @@
     "state": "active",
     "use_count": 2,
     "view_count": 2
+  },
+  "foreverbox/fbox-wolf-spawn": {
+    "archived_at": null,
+    "created_at": "2026-07-20T16:40:28.040025+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-07-20T16:40:28.048366+00:00",
+    "last_viewed_at": "2026-07-20T16:40:28.040036+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
   },
   "github-auth": {
     "archived_at": null,
@@ -233,17 +246,43 @@
     "use_count": 3,
     "view_count": 3
   },
+  "site-deployment": {
+    "archived_at": null,
+    "created_at": "2026-07-20T17:13:14.222646+00:00",
+    "created_by": "agent",
+    "last_patched_at": null,
+    "last_used_at": "2026-07-20T17:13:26.487841+00:00",
+    "last_viewed_at": "2026-07-20T17:13:26.485360+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
   "update-plans-progression": {
     "archived_at": null,
     "created_at": "2026-07-20T11:28:13.121382+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": "2026-07-20T16:29:16.864688+00:00",
-    "last_viewed_at": "2026-07-20T16:29:16.862170+00:00",
+    "last_used_at": "2026-07-20T16:40:57.940726+00:00",
+    "last_viewed_at": "2026-07-20T16:40:57.932130+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 7,
-    "view_count": 7
+    "use_count": 8,
+    "view_count": 8
+  },
+  "wolf-protocol": {
+    "archived_at": null,
+    "created_at": "2026-07-20T16:40:53.596633+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-07-20T16:41:12.816080+00:00",
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
   }
 }
