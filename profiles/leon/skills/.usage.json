@@ -25,6 +25,19 @@
     "use_count": 5,
     "view_count": 5
   },
+  "ecosystem-analysis": {
+    "archived_at": null,
+    "created_at": "2026-07-20T18:34:16.118561+00:00",
+    "created_by": "agent",
+    "last_patched_at": null,
+    "last_used_at": "2026-07-20T18:45:53.521795+00:00",
+    "last_viewed_at": "2026-07-20T18:45:53.518931+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
   "fbox-council-library-cli": {
     "archived_at": null,
     "created_at": "2026-07-20T18:11:32.760643+00:00",
@@ -108,13 +121,13 @@
     "created_at": "2026-07-16T12:15:29.397233+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": "2026-07-20T18:12:09.849316+00:00",
-    "last_viewed_at": "2026-07-20T18:12:09.845368+00:00",
+    "last_used_at": "2026-07-20T18:45:10.719880+00:00",
+    "last_viewed_at": "2026-07-20T18:45:10.717138+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 42,
-    "view_count": 42
+    "use_count": 44,
+    "view_count": 44
   },
   "fbox-quiddity-taxonomy-management": {
     "archived_at": null,
@@ -172,14 +185,14 @@
     "archived_at": null,
     "created_at": "2026-07-20T15:25:38.315393+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-07-20T17:17:25.466780+00:00",
-    "last_used_at": "2026-07-20T18:12:52.580501+00:00",
-    "last_viewed_at": "2026-07-20T18:12:52.572626+00:00",
-    "patch_count": 3,
+    "last_patched_at": "2026-07-20T18:46:17.524605+00:00",
+    "last_used_at": "2026-07-20T18:46:10.685021+00:00",
+    "last_viewed_at": "2026-07-20T18:46:10.682579+00:00",
+    "patch_count": 5,
     "pinned": false,
     "state": "active",
-    "use_count": 10,
-    "view_count": 10
+    "use_count": 13,
+    "view_count": 13
   },
   "foreverbox-operations": {
     "archived_at": null,
@@ -246,6 +259,19 @@
     "use_count": 6,
     "view_count": 6
   },
+  "plan": {
+    "archived_at": null,
+    "created_at": "2026-07-20T18:27:46.100789+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-07-20T18:27:46.103569+00:00",
+    "last_viewed_at": "2026-07-20T18:27:46.100802+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
   "plans-progression-dashboard": {
     "archived_at": null,
     "created_at": "2026-07-20T16:29:44.571150+00:00",
@@ -277,13 +303,13 @@
     "created_at": "2026-07-20T17:13:14.222646+00:00",
     "created_by": "agent",
     "last_patched_at": null,
-    "last_used_at": "2026-07-20T18:13:18.763567+00:00",
-    "last_viewed_at": "2026-07-20T18:13:18.761305+00:00",
+    "last_used_at": "2026-07-20T18:32:13.840606+00:00",
+    "last_viewed_at": "2026-07-20T18:32:13.838104+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 6,
-    "view_count": 6
+    "use_count": 9,
+    "view_count": 9
   },
   "update-plans-progression": {
     "archived_at": null,
@@ -302,13 +328,13 @@
     "archived_at": null,
     "created_at": "2026-07-20T16:40:53.596633+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-07-20T16:41:12.816080+00:00",
-    "last_used_at": "2026-07-20T18:13:12.181808+00:00",
-    "last_viewed_at": "2026-07-20T18:13:12.178923+00:00",
-    "patch_count": 1,
+    "last_patched_at": "2026-07-20T18:26:42.662455+00:00",
+    "last_used_at": "2026-07-20T18:26:36.499761+00:00",
+    "last_viewed_at": "2026-07-20T18:26:36.497486+00:00",
+    "patch_count": 2,
     "pinned": false,
     "state": "active",
-    "use_count": 1,
-    "view_count": 1
+    "use_count": 3,
+    "view_count": 3
   }
 }

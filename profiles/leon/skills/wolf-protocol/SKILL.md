@@ -49,6 +49,17 @@ terminal("/foreverbox_data/bin/fbox-memory-list wolf_tasks")
 terminal("/foreverbox_data/bin/fbox-memory-search \"{topic}\" wolf_tasks")
 ```
 
+## Important Distinction: Two Different Wolf Protocols
+
+There are two separate concepts named "Wolf Protocol" in the Foreverbox ecosystem. Do not conflate them:
+
+| Wolf Protocol | Purpose | Status |
+|---------------|---------|--------|
+| Research Wolf System (this skill) | Background research workers spawned via hermes chat --profile wolf | Built and operational |
+| Forever Fit Wolf Protocol | Gamification system for the Forever Fit health platform: The Hunt, Den Integrity, The Pack is Moving. Old spec section 19.1 | Not built. Separate project |
+
+The Forever Fit Wolf Protocol is a completely different concept — it is a gamification/fitness system, not a research worker system. When Merrill mentions "Wolf Protocol" in the context of Forever Fit, direct to the Forever Fit project documentation (not yet in the Sea as of July 2026).
+
 ## Pitfalls
 
 - Wolves use `terminal()` with shell scripts, NOT native tools. The spawn prompt must tell them to use `terminal("/foreverbox_data/bin/fbox-memory-upsert ...")`.
