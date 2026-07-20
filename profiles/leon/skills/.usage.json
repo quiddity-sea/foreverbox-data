@@ -82,13 +82,13 @@
     "created_at": "2026-07-16T12:15:29.397233+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": "2026-07-20T14:32:49.600159+00:00",
-    "last_viewed_at": "2026-07-20T14:32:49.596904+00:00",
+    "last_used_at": "2026-07-20T16:33:42.134944+00:00",
+    "last_viewed_at": "2026-07-20T16:33:42.132259+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 30,
-    "view_count": 30
+    "use_count": 34,
+    "view_count": 34
   },
   "fbox-quiddity-taxonomy-management": {
     "archived_at": null,
@@ -146,14 +146,14 @@
     "archived_at": null,
     "created_at": "2026-07-20T15:25:38.315393+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-07-20T15:33:39.416919+00:00",
-    "last_used_at": "2026-07-20T15:28:28.949092+00:00",
-    "last_viewed_at": "2026-07-20T15:28:28.946263+00:00",
-    "patch_count": 1,
+    "last_patched_at": "2026-07-20T15:53:17.457642+00:00",
+    "last_used_at": "2026-07-20T15:53:03.610747+00:00",
+    "last_viewed_at": "2026-07-20T15:53:03.607039+00:00",
+    "patch_count": 2,
     "pinned": false,
     "state": "active",
-    "use_count": 2,
-    "view_count": 2
+    "use_count": 3,
+    "view_count": 3
   },
   "foreverbox-operations": {
     "archived_at": null,
@@ -207,6 +207,19 @@
     "use_count": 6,
     "view_count": 6
   },
+  "plans-progression-dashboard": {
+    "archived_at": null,
+    "created_at": "2026-07-20T16:29:44.571150+00:00",
+    "created_by": "agent",
+    "last_patched_at": null,
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
+  },
   "quiddity-folder-manager": {
     "archived_at": null,
     "created_at": "2026-07-14T18:57:49.730092+00:00",
@@ -225,12 +238,12 @@
     "created_at": "2026-07-20T11:28:13.121382+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": "2026-07-20T12:37:41.258198+00:00",
-    "last_viewed_at": "2026-07-20T12:37:41.255700+00:00",
+    "last_used_at": "2026-07-20T16:29:16.864688+00:00",
+    "last_viewed_at": "2026-07-20T16:29:16.862170+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 3,
-    "view_count": 3
+    "use_count": 7,
+    "view_count": 7
   }
 }

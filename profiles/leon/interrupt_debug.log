@@ -28,3 +28,5 @@
 02:41:43 interrupt fired: msg='WHATS HAPPENEING?', children=0, parent._interrupt=True
 12:40:42 ENTER: queued interrupt msg='actually no compleate the one your currently owrking on but ', agent_running=True
 12:40:42 interrupt fired: msg='actually no compleate the one your currently owrking on but ', children=0, parent._interrupt=True
+16:57:13 interrupt fired: msg='are you still functioning?', children=0, parent._interrupt=True
+16:57:13 ENTER: queued interrupt msg='are you still functioning?', agent_running=True
