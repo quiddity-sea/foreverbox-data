@@ -1,0 +1,62 @@
+{
+  "sessions": {
+    "leon": {
+      "last_message_id": 6011,
+      "last_sync": "2026-07-20T15:34:24.852016+00:00"
+    },
+    "zeon7": {
+      "last_message_id": 588,
+      "last_sync": "2026-07-20T15:22:41.253763+00:00"
+    }
+  },
+  "files": {
+    "04_FromTheNoise_Archives/FTN_Master_Handbook_v5.md": {
+      "hash": "3cdd7b8c09df2fb438634736a6fa8795182c3e5e5d466b8761b0f28b743bf5ca",
+      "synced_at": "2026-07-20T14:27:52.166181+00:00"
+    },
+    "04_FromTheNoise_Archives/FTN_Master_Handbook_v4.md": {
+      "hash": "8bd67ba143e0f0f19afce774c0e12ff103b7fcf7864c981d7318856866162325",
+      "synced_at": "2026-07-20T14:27:52.198023+00:00"
+    },
+    "05_Agent_Profiles/Zeon7 - updated information.md": {
+      "hash": "12749cef22359dc2e666334d4f29d26c78805764e3837bba73b58ba2ee616df6",
+      "synced_at": "2026-07-20T14:27:52.215852+00:00"
+    },
+    "05_Agent_Profiles/Zeon7_Biography.md": {
+      "hash": "c15903bfb0926d85a2389c75543b1abb4ee34b472aad8395caaedf63b89eb874",
+      "synced_at": "2026-07-20T14:27:52.238502+00:00"
+    },
+    "05_Agent_Profiles/Zeon7_ProfileSheet.md": {
+      "hash": "5630a3e137958e733f5571f1ac6eb9f0d3a7b74eded7fb8a6594c21641783710",
+      "synced_at": "2026-07-20T14:27:52.256327+00:00"
+    },
+    "02_ReInvigor_Texts/The_Council_Library_Master_Briefing_V6_Technical_Human.md": {
+      "hash": "462de23d2fbf0f0706c1f38ce2f7e1d0177946415f05a637a69829b20be7d5ae",
+      "synced_at": "2026-07-20T14:27:52.273077+00:00"
+    },
+    "02_ReInvigor_Texts/The Council Library Master Briefing V5.md": {
+      "hash": "9cfef9c79f5385474bcfd32645354dd39b5e1c6b86124426bb05761f37950ad2",
+      "synced_at": "2026-07-20T14:27:52.279784+00:00"
+    },
+    "06_QuiddityLtd_Dev_Specs/ARCHITECTURE_BLUEPRINT_V2 - 2.md": {
+      "hash": "8574684a4c65a991192802b966e2e9267b085f5d70a8aa0af73ba369836d9ad0",
+      "synced_at": "2026-07-20T14:27:52.285779+00:00"
+    },
+    "06_QuiddityLtd_Dev_Specs/ARCHITECTURE_BLUEPRINT_V3.md": {
+      "hash": "8574684a4c65a991192802b966e2e9267b085f5d70a8aa0af73ba369836d9ad0",
+      "synced_at": "2026-07-20T14:27:52.292438+00:00"
+    },
+    "07_MerrillLeo_CreativeWorks/stories/The-Architecture-of-Silence.pdf": {
+      "hash": "2dc42b10b52a23c8c2e7f582524e3293ab5546b349124eee77af5c6d9afb8e29",
+      "synced_at": "2026-07-20T14:27:52.299587+00:00"
+    },
+    "07_MerrillLeo_CreativeWorks/stories/The-Architecture-of-Silence.txt": {
+      "hash": "12c439282a5fe7e8e26f2e00dbc4e0027e7854e7295569d728d9137991217fc7",
+      "synced_at": "2026-07-20T14:27:52.305441+00:00"
+    },
+    "01_TheForeverbox_Mythos/origin_story/THE_FIRST_TEACHER.md": {
+      "hash": "53291b15f065dde81d33a4b90e2246f919d86446d8b5777becc76372368b91d1",
+      "synced_at": "2026-07-20T14:27:52.320077+00:00"
+    }
+  }
+}

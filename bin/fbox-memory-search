@@ -1,0 +1,12 @@
+#!/bin/bash
+# fbox-memory-search: Search agent Sanctum
+# Usage: fbox-memory-search "query" [namespace] [limit] [agent]
+QUERY="${1}"
+NS="${2:-}"
+LIMIT="${3:-10}"
+AGENT="${4:-curator}"
+curl -s -X POST "http://localhost:8080/v1/sanctum/memory/search" \
+  -H "Authorization: Bearer dev-key-change-in-production" \
+  -H "X-Agent-ID: ${AGENT}" \
+  -H "Content-Type: application/json" \
+  -d "{\"query\":\"${QUERY}\",\"namespace\":\"${NS}\",\"limit\":${LIMIT}}"

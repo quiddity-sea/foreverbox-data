@@ -1,0 +1,43 @@
+#!/bin/bash
+# fbox-ingest-file: Ingest a file into the Quiddity Lore Sea
+# Handles: .md .txt .pdf (auto-extracts text from PDFs)
+# Usage: fbox-ingest-file <relative-path> [organise]
+
+set -e
+
+FILE="$1"
+ORG="${2:-true}"
+API_URL="http://localhost:8080/v1"
+API_KEY="dev-key-change-in-production"
+SEA_ROOT="/foreverbox_data/Quiddity_Lore_Sea"
+ABS_FILE="$SEA_ROOT/$FILE"
+
+if [ ! -f "$ABS_FILE" ]; then
+    echo "{\"error\": \"File not found: $FILE\"}"
+    exit 1
+fi
+
+EXT="${FILE##*.}"
+INGEST_PATH="$FILE"
+
+# If PDF, extract text first
+if [ "${EXT,,}" = "pdf" ]; then
+    TXT_FILE="${FILE%.pdf}.txt"
+    ABS_TXT="$SEA_ROOT/$TXT_FILE"
+    echo "{\"status\": \"extracting\", \"file\": \"$FILE\"}"
+    pdftotext -layout "$ABS_FILE" "$ABS_TXT" 2>/dev/null
+    if [ -f "$ABS_TXT" ]; then
+        INGEST_PATH="$TXT_FILE"
+        echo "{\"status\": \"extracted\", \"text_file\": \"$TXT_FILE\"}"
+    else
+        echo "{\"error\": \"PDF extraction failed for $FILE\"}"
+        exit 1
+    fi
+fi
+
+# Ingest the file
+curl -s -X POST "$API_URL/commons/files/sync" \
+  -H "Authorization: Bearer $API_KEY" \
+  -H "X-Agent-ID: curator" \
+  -H "Content-Type: application/json" \
+  -d "{\"paths\":[\"$INGEST_PATH\"],\"organise\":$ORG}"

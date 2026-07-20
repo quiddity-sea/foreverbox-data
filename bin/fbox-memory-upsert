@@ -1,0 +1,13 @@
+#!/bin/bash
+# fbox-memory-upsert: Write to Sanctum
+# Usage: fbox-memory-upsert <namespace> <key> <content> [importance] [agent]
+NS="${1}"
+KEY="${2}"
+CONTENT="${3}"
+IMP="${4:-70}"
+AGENT="${5:-curator}"
+curl -s -X PUT "http://localhost:8080/v1/sanctum/memory/${NS}/${KEY}" \
+  -H "Authorization: Bearer dev-key-change-in-production" \
+  -H "X-Agent-ID: ${AGENT}" \
+  -H "Content-Type: application/json" \
+  -d "{\"namespace\":\"${NS}\",\"key_name\":\"${KEY}\",\"content\":\"${CONTENT}\",\"importance\":${IMP},\"source_type\":\"session_extraction\"}"

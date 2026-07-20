@@ -1,0 +1,19 @@
+[Unit]
+Description=Foreverbox Council Library Sync Daemon
+After=network.target mariadb.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3.12 /foreverbox_data/sync/sync_daemon.py sync all
+WorkingDirectory=/foreverbox_data/sync
+Environment=FOREVERBOX_API_KEY=dev-key-change-in-production
+User=zeon7
+Group=zeon7
+
+# Security hardening
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/foreverbox_data/sync /foreverbox_data/Quiddity_Lore_Sea
+ReadOnlyPaths=/foreverbox_data/profiles

@@ -1,0 +1,8 @@
+#!/bin/bash
+QUERY="$1"
+LIMIT="${2:-10}"
+curl -s -G "http://localhost:8080/v1/commons/search" \
+  --data-urlencode "query=${QUERY}" \
+  --data-urlencode "limit=${LIMIT}" \
+  -H "Authorization: Bearer dev-key-change-in-production" \
+  -H "X-Agent-ID: curator"

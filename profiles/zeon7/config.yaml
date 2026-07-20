@@ -1,9 +1,10 @@
 model:
   default: Zeon7-Gemma:64k
-  provider: ollama
+  provider: custom:g4
   base_url: http://localhost:11434/v1
   ollama_num_ctx: 65536
   context_length: 65536
+  api_mode: chat_completions
 hooks:
   pre_turn:
     - cognitive_router.on_turn_start
@@ -73,3 +74,5 @@ plugins:
 
 memory:
   provider: foreverbox
+approvals:
+  destructive_slash_confirm: false

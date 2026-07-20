@@ -1,0 +1,9 @@
+#!/bin/bash
+# fbox-memory-get: Retrieve a memory entry
+# Usage: fbox-memory-get <namespace> <key> [agent]
+NS="${1}"
+KEY="${2}"
+AGENT="${3:-curator}"
+curl -s "http://localhost:8080/v1/sanctum/memory/${NS}/${KEY}" \
+  -H "Authorization: Bearer dev-key-change-in-production" \
+  -H "X-Agent-ID: ${AGENT}"

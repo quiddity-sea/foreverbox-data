@@ -1,0 +1,11 @@
+[Unit]
+Description=Foreverbox Council Library Sync Timer
+Requires=sync_daemon.service
+
+[Timer]
+OnCalendar=*:0/30
+Persistent=true
+RandomizedDelaySec=120
+
+[Install]
+WantedBy=timers.target

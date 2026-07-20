@@ -1,7 +1,8 @@
 model:
-  default: deepseek-v4-pro
-  provider: deepseek
-  base_url: https://api.deepseek.com/v1
+  default: nemotron-3-ultra
+  provider: ollama-cloud
+  base_url: https://ollama.com/v1
+  api_mode: chat_completions
 command_allowlist:
   - SQL TRUNCATE
   - overwrite system file via tee
