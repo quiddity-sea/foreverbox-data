@@ -23,6 +23,7 @@ import json
 import hashlib
 import os
 import sqlite3
+import subprocess
 import sys
 import time
 from datetime import datetime, timezone
@@ -260,6 +261,18 @@ def show_status() -> dict:
     return status
 
 
+
+# ── Vector Sync ──────────────────────────────────────────────────────────────
+
+def sync_vectors() -> dict:
+    """Sync website content vectors into quiddity_sea."""
+    vec_script = "/var/www/the-foreverbox-institute/institute/config/db-files/sync_vectors.py"
+    if os.path.exists(vec_script):
+        res = subprocess.run(["python3", vec_script], capture_output=True, text=True)
+        return {"status": "ok" if res.returncode == 0 else "error", "output": res.stdout.strip()}
+    return {"status": "skipped", "reason": f"Script not found at {vec_script}"}
+
+
 # ── CLI ──────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
@@ -282,6 +295,9 @@ if __name__ == "__main__":
         if target in ("files", "all"):
             r = sync_files()
             print(f"Files: {json.dumps(r, indent=2)}")
+        if target in ("vectors", "all"):
+            r = sync_vectors()
+            print(f"Vectors: {json.dumps(r, indent=2)}")
     else:
         print(f"Unknown command: {cmd}")
         sys.exit(1)

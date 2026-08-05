@@ -1,10 +1,13 @@
 model:
   default: Zeon7-Gemma:64k
-  provider: custom:g4
+  provider: custom
   base_url: http://localhost:11434/v1
   ollama_num_ctx: 65536
-  context_length: 65536
-  api_mode: chat_completions
+  context_length: 1000000
+memory:
+  provider: foreverbox
+approvals:
+  destructive_slash_confirm: false
 hooks:
   pre_turn:
     - cognitive_router.on_turn_start
@@ -25,7 +28,10 @@ _config_version: 33
 custom_providers:
   - name: g4
     base_url: http://localhost:11434/v1
-    model: fredrezones55/Gemma-4-Uncensored-HauhauCS-Aggressive:e2b-SCN
+    model: Zeon7-Gemma:64k
+  - name: qwen-local
+    base_url: http://localhost:11435/v1
+    model: qwen2.5-coder:7b-16k
 plugins:
   enabled:
     - memory/foreverbox
@@ -71,8 +77,3 @@ plugins:
 # fallback_model:
 #   provider: openrouter
 #   model: anthropic/claude-sonnet-4
-
-memory:
-  provider: foreverbox
-approvals:
-  destructive_slash_confirm: false

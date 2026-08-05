@@ -4,6 +4,14 @@ model:
   base_url: http://localhost:11434/v1
   ollama_num_ctx: 65536
   context_length: 65536
+
+custom_providers:
+  - name: g4
+    base_url: http://localhost:11434/v1
+    model: fredrezones55/Gemma-4-Uncensored-HauhauCS-Aggressive:e2b-SCN
+  - name: qwen-local
+    base_url: http://localhost:11435/v1
+    model: qwen2.5-coder:7b
 hooks:
   pre_turn:
     - cognitive_router.on_turn_start

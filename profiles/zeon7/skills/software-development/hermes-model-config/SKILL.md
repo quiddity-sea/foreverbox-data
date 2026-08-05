@@ -146,6 +146,28 @@ OpenRouter hosts community fine-tunes tagged `uncensored` (e.g., `fredrezones55/
 ### Pitfall 6: Mid-Session Model Switches Don't Update Context
 When Hermes switches models mid-session (via OpenRouter provider), the **system prompt and conversation history remain**. The new model inherits the previous model's context. This can cause persona drift if the new model doesn't share the same instruction-following behavior.
 
+### Pitfall 7: OpenRouter Free Tier Context Limits Differ from Published Specs
+OpenRouter's free tier models may report different context limits than the model's official specification. For example:
+- **Nemotron 3 Ultra** (official NVIDIA spec): 128k context
+- **OpenRouter free tier** (`nvidia/nemotron-3-ultra-550b-a55b:free`): **1,000,000** context, but **max output: 65,536** tokens
+
+Always verify via OpenRouter's `/models` endpoint:
+```bash
+curl -s https://openrouter.ai/api/v1/models | python3 -c "
+import sys, json
+data = json.load(sys.stdin)
+for m in data['data']:
+    if 'nemotron-3-ultra' in m['id'].lower():
+        print(f\"ID: {m['id']}\")
+        print(f\"Context: {m.get('context_length', 'N/A')}\")
+        print(f\"Max output: {m.get('top_provider', {}).get('max_completion_tokens', 'N/A')}\")
+"
+```
+Update Hermes config accordingly:
+```bash
+hermes config set model.context_length 1000000 --profile <profile_name>
+```
+
 ## Verification Commands
 
 ### Test Model Access

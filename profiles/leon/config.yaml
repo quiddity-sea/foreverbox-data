@@ -1,8 +1,12 @@
 model:
-  default: deepseek-v4-flash
-  provider: deepseek
-  base_url: https://api.deepseek.com/v1
+  default: qwen3-8b-q4km:latest
+  provider: custom:g4
+  base_url: http://localhost:11434/v1
+  ollama_num_ctx: 65536
+  context_length: 1048576
   api_mode: chat_completions
+memory:
+  provider: foreverbox
 command_allowlist:
   - SQL TRUNCATE
   - overwrite system file via tee
@@ -23,6 +27,13 @@ onboarding:
     tool_progress_prompt: true
     busy_input_prompt: true
 _config_version: 33
+custom_providers:
+  - name: g4
+    base_url: http://localhost:11434/v1
+    model: fredrezones55/Gemma-4-Uncensored-HauhauCS-Aggressive:e2b-SCN
+  - name: qwen-local
+    base_url: http://localhost:11435/v1
+    model: qwen2.5-coder:7b
 plugins:
   enabled:
     - memory/foreverbox
@@ -68,6 +79,3 @@ plugins:
 # fallback_model:
 #   provider: openrouter
 #   model: anthropic/claude-sonnet-4
-
-memory:
-  provider: foreverbox

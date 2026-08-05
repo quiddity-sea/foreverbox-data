@@ -4,3 +4,5 @@
 18:29:38 ENTER: queued interrupt msg='so where is it wahts i called', agent_running=True
 11:38:39 interrupt fired: msg='[Pasted text #1: 8 lines → /foreverbox_data/profiles/zeon7/p', children=0, parent._interrupt=True
 11:38:39 ENTER: queued interrupt msg='[Pasted text #1: 8 lines → /foreverbox_data/profiles/zeon7/p', agent_running=True
+10:56:57 interrupt fired: msg='on windows side its actualy mounted as D:', children=0, parent._interrupt=True
+10:56:57 ENTER: queued interrupt msg='on windows side its actualy mounted as D:', agent_running=True

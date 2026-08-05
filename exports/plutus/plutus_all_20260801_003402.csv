@@ -1,0 +1,541 @@
+ID,NAME,TYPE,AMOUNT,CURRENCY,DATE,DESCRIPTION,NOTES,BUDGET,BUDGET_TYPE,CATEGORY
+1022,Groceries,expense,300.00,GBP,"2026-07-29 12:26:14",,,Household,household,Groceries
+2,"Shop 2",expense,24.95,GBP,"2026-07-29 11:43:00",,,"Food and Drink",household,Beef
+1,"test shop",expense,18.47,GBP,"2026-07-29 11:35:00",,,"Food and Drink",household,Beef
+1136,Food,expense,65.00,GBP,"2026-07-29 11:31:36",,,Household,household,Food
+1322,Music,expense,10.00,GBP,"2026-07-29 05:52:35",,,James,personal,Music
+1446,Vet/medical,expense,25.00,GBP,"2026-07-29 03:37:39",,,James,personal,Vet/medical
+1296,"Barcleycard CC",expense,120.00,GBP,"2026-07-28 17:18:34",,,James,personal,"Credit Cards"
+1030,"Laundry/dry cleaning",expense,15.00,GBP,"2026-07-28 14:33:53",,,Household,household,"Laundry/dry cleaning"
+1290,"Barcleycard CC",expense,120.00,GBP,"2026-07-28 13:48:01",,,James,personal,"Credit Cards"
+1537,Coal,expense,60.00,GBP,"2026-07-28 10:16:27",,,James,personal,Coal
+1078,Rent/mortgage,expense,426.94,GBP,"2026-07-28 08:06:54",,,Household,household,Rent/mortgage
+1205,TV,expense,13.37,GBP,"2026-07-28 06:28:54",,,Household,household,TV
+1297,"Barcleycard CC",expense,120.00,GBP,"2026-07-28 03:44:48",,,James,personal,"Credit Cards"
+1039,Cleaning,expense,10.00,GBP,"2026-07-27 22:25:07",,,Household,household,Cleaning
+1224,Electricity,expense,50.00,GBP,"2026-07-27 21:29:45",,,Household,household,Electricity
+1095,"Council Tax",expense,118.00,GBP,"2026-07-27 19:03:01",,,Household,household,"Council Tax"
+1306,"Zopa Personal Loan",expense,120.00,GBP,"2026-07-27 17:48:20",,,James,personal,Loans
+1430,Food,expense,45.00,GBP,"2026-07-27 14:07:27",,,James,personal,Food
+1353,"Personal supplies",expense,160.00,GBP,"2026-07-27 06:14:17",,,James,personal,"Personal supplies"
+1261,Coal,expense,65.00,GBP,"2026-07-26 20:37:35",,,Household,household,Coal
+1469,TV,expense,13.00,GBP,"2026-07-26 20:10:56",,,James,personal,TV
+1418,"Council Tax",expense,90.00,GBP,"2026-07-26 18:06:30",,,James,personal,"Council Tax"
+1508,Gas,expense,40.00,GBP,"2026-07-26 16:18:14",,,James,personal,Gas
+1089,"Council Tax",expense,118.00,GBP,"2026-07-26 15:16:43",,,Household,household,"Council Tax"
+1332,Music,expense,10.00,GBP,"2026-07-26 10:15:31",,,James,personal,Music
+1269,"CapitalOne  CC",expense,120.00,GBP,"2026-07-26 07:33:36",,,James,personal,"Credit Cards"
+1033,"Laundry/dry cleaning",expense,15.00,GBP,"2026-07-26 05:36:52",,,Household,household,"Laundry/dry cleaning"
+1184,Phone,expense,7.00,GBP,"2026-07-26 04:47:58",,,Household,household,Phone
+1214,Internet,expense,28.00,GBP,"2026-07-26 04:21:04",,,Household,household,Internet
+1087,"Council Tax",expense,118.00,GBP,"2026-07-25 23:35:30",,,Household,household,"Council Tax"
+1327,Music,expense,10.00,GBP,"2026-07-25 22:09:29",,,James,personal,Music
+1287,"Barcleycard CC",expense,120.00,GBP,"2026-07-25 06:57:24",,,James,personal,"Credit Cards"
+1336,Groceries,expense,320.00,GBP,"2026-07-25 02:13:48",,,James,personal,Groceries
+1468,TV,expense,13.00,GBP,"2026-07-25 01:53:54",,,James,personal,TV
+1423,"Council Tax",expense,90.00,GBP,"2026-07-25 00:21:57",,,James,personal,"Council Tax"
+1535,Coal,expense,60.00,GBP,"2026-07-25 00:12:28",,,James,personal,Coal
+1288,"Barcleycard CC",expense,120.00,GBP,"2026-07-24 19:17:06",,,James,personal,"Credit Cards"
+1032,"Laundry/dry cleaning",expense,15.00,GBP,"2026-07-24 17:56:46",,,Household,household,"Laundry/dry cleaning"
+1121,Pet,expense,67.74,GBP,"2026-07-24 13:33:00",,,Household,household,Pet
+1146,Vet/medical,expense,25.00,GBP,"2026-07-24 09:05:52",,,Household,household,Vet/medical
+1521,Water,expense,20.00,GBP,"2026-07-24 08:33:56",,,James,personal,Water
+1331,Music,expense,10.00,GBP,"2026-07-24 08:23:10",,,James,personal,Music
+1219,Electricity,expense,50.00,GBP,"2026-07-24 02:37:53",,,Household,household,Electricity
+1505,Gas,expense,40.00,GBP,"2026-07-24 01:30:08",,,James,personal,Gas
+1193,Phone,expense,7.00,GBP,"2026-07-23 22:53:01",,,Household,household,Phone
+1258,Coal,expense,65.00,GBP,"2026-07-23 19:56:06",,,Household,household,Coal
+1044,Cleaning,expense,10.00,GBP,"2026-07-23 19:10:59",,,Household,household,Cleaning
+1124,Pet,expense,67.74,GBP,"2026-07-23 13:27:41",,,Household,household,Pet
+1481,Internet,expense,35.00,GBP,"2026-07-23 07:39:34",,,James,personal,Internet
+1004,"Household Card",expense,40.00,GBP,"2026-07-23 01:41:20",,,Household,household,"Household Card"
+1132,Food,expense,65.00,GBP,"2026-07-23 00:27:32",,,Household,household,Food
+1174,Fuel,expense,90.00,GBP,"2026-07-22 18:40:57",,,Household,household,Fuel
+1056,Subscriptions,expense,10.00,GBP,"2026-07-22 13:49:43",,,Household,household,Subscriptions
+1135,Food,expense,65.00,GBP,"2026-07-22 10:04:31",,,Household,household,Food
+1407,Rent/mortgage,expense,440.00,GBP,"2026-07-22 03:45:22",,,James,personal,Rent/mortgage
+1120,Pet,expense,67.74,GBP,"2026-07-21 22:46:44",,,Household,household,Pet
+1240,Gas,expense,40.00,GBP,"2026-07-21 18:33:20",,,Household,household,Gas
+1394,"Work Lunch",expense,100.00,GBP,"2026-07-21 16:50:56",,,James,personal,"Work Lunch"
+1272,"CapitalOne  CC",expense,120.00,GBP,"2026-07-21 05:21:30",,,James,personal,"Credit Cards"
+1102,Maintenance,expense,10.00,GBP,"2026-07-21 03:53:09",,,Household,household,Maintenance
+1307,"Zopa Personal Loan",expense,120.00,GBP,"2026-07-21 01:47:37",,,James,personal,Loans
+1429,"Council Tax",expense,90.00,GBP,"2026-07-20 23:11:34",,,James,personal,"Council Tax"
+1340,Groceries,expense,320.00,GBP,"2026-07-20 20:21:25",,,James,personal,Groceries
+1045,Cleaning,expense,10.00,GBP,"2026-07-20 17:22:10",,,Household,household,Cleaning
+1198,TV,expense,13.37,GBP,"2026-07-20 15:10:27",,,Household,household,TV
+1156,"Online services",expense,10.00,GBP,"2026-07-20 11:38:09",,,Household,household,"Online services"
+1400,"Work Lunch",expense,100.00,GBP,"2026-07-20 11:16:42",,,James,personal,"Work Lunch"
+1079,Rent/mortgage,expense,426.94,GBP,"2026-07-20 04:02:28",,,Household,household,Rent/mortgage
+1531,Coal,expense,60.00,GBP,"2026-07-19 21:24:28",,,James,personal,Coal
+1351,"Personal supplies",expense,160.00,GBP,"2026-07-19 13:01:06",,,James,personal,"Personal supplies"
+1527,Coal,expense,60.00,GBP,"2026-07-19 12:20:42",,,James,personal,Coal
+1280,"VirginMoney  CC",expense,120.00,GBP,"2026-07-19 09:59:16",,,James,personal,"Credit Cards"
+1277,"VirginMoney  CC",expense,120.00,GBP,"2026-07-19 04:51:46",,,James,personal,"Credit Cards"
+1164,"Online services",expense,10.00,GBP,"2026-07-19 03:48:50",,,Household,household,"Online services"
+1070,"Vitamins & Minireals",expense,5.00,GBP,"2026-07-19 02:36:33",,,Household,household,"Vitamins & Minireals"
+1083,Rent/mortgage,expense,426.94,GBP,"2026-07-19 00:46:23",,,Household,household,Rent/mortgage
+1330,Music,expense,10.00,GBP,"2026-07-18 20:51:12",,,James,personal,Music
+1090,"Council Tax",expense,118.00,GBP,"2026-07-18 13:34:33",,,Household,household,"Council Tax"
+1168,Fuel,expense,90.00,GBP,"2026-07-18 03:21:20",,,Household,household,Fuel
+1473,TV,expense,13.00,GBP,"2026-07-17 15:37:07",,,James,personal,TV
+1403,"Work Lunch",expense,100.00,GBP,"2026-07-17 15:13:25",,,James,personal,"Work Lunch"
+1433,Food,expense,45.00,GBP,"2026-07-17 14:38:37",,,James,personal,Food
+1096,Maintenance,expense,10.00,GBP,"2026-07-17 14:13:41",,,Household,household,Maintenance
+1231,Gas,expense,40.00,GBP,"2026-07-17 13:00:11",,,Household,household,Gas
+1189,Phone,expense,7.00,GBP,"2026-07-17 12:21:39",,,Household,household,Phone
+1526,Coal,expense,60.00,GBP,"2026-07-17 08:52:34",,,James,personal,Coal
+1383,Hair/beauty,expense,20.00,GBP,"2026-07-17 03:09:28",,,James,personal,Hair/beauty
+1027,"Laundry/dry cleaning",expense,15.00,GBP,"2026-07-16 21:01:34",,,Household,household,"Laundry/dry cleaning"
+1451,Vet/medical,expense,25.00,GBP,"2026-07-16 20:21:34",,,James,personal,Vet/medical
+1392,Hair/beauty,expense,20.00,GBP,"2026-07-16 19:37:37",,,James,personal,Hair/beauty
+1236,Gas,expense,40.00,GBP,"2026-07-16 11:14:50",,,Household,household,Gas
+1329,Music,expense,10.00,GBP,"2026-07-16 11:06:09",,,James,personal,Music
+1370,"Laundry/dry cleaning",expense,20.00,GBP,"2026-07-16 09:10:16",,,James,personal,"Laundry/dry cleaning"
+1281,"VirginMoney  CC",expense,120.00,GBP,"2026-07-16 08:01:06",,,James,personal,"Credit Cards"
+1315,Overdraft,expense,120.00,GBP,"2026-07-16 00:18:58",,,James,personal,Overdraft
+1525,Water,expense,20.00,GBP,"2026-07-15 08:58:44",,,James,personal,Water
+1509,Gas,expense,40.00,GBP,"2026-07-15 07:39:23",,,James,personal,Gas
+1101,Maintenance,expense,10.00,GBP,"2026-07-15 06:44:50",,,Household,household,Maintenance
+1271,"CapitalOne  CC",expense,120.00,GBP,"2026-07-14 23:59:01",,,James,personal,"Credit Cards"
+1483,Internet,expense,35.00,GBP,"2026-07-14 23:55:47",,,James,personal,Internet
+1384,Hair/beauty,expense,20.00,GBP,"2026-07-14 21:17:27",,,James,personal,Hair/beauty
+1462,"Mobile Phone",expense,16.00,GBP,"2026-07-14 19:24:41",,,James,personal,"Mobile Phone"
+1432,Food,expense,45.00,GBP,"2026-07-14 15:17:26",,,James,personal,Food
+1025,"Laundry/dry cleaning",expense,15.00,GBP,"2026-07-14 12:11:10",,,Household,household,"Laundry/dry cleaning"
+1341,Groceries,expense,320.00,GBP,"2026-07-14 10:31:00",,,James,personal,Groceries
+1081,Rent/mortgage,expense,426.94,GBP,"2026-07-14 10:13:52",,,Household,household,Rent/mortgage
+1310,Overdraft,expense,120.00,GBP,"2026-07-14 08:34:15",,,James,personal,Overdraft
+1252,Water,expense,20.00,GBP,"2026-07-14 08:10:34",,,Household,household,Water
+1092,"Council Tax",expense,118.00,GBP,"2026-07-14 07:51:49",,,Household,household,"Council Tax"
+1424,"Council Tax",expense,90.00,GBP,"2026-07-14 02:38:50",,,James,personal,"Council Tax"
+1091,"Council Tax",expense,118.00,GBP,"2026-07-13 21:20:20",,,Household,household,"Council Tax"
+1008,"Household Card",expense,40.00,GBP,"2026-07-13 14:32:47",,,Household,household,"Household Card"
+1229,Electricity,expense,50.00,GBP,"2026-07-13 13:48:12",,,Household,household,Electricity
+1003,"Household Card",expense,40.00,GBP,"2026-07-13 13:15:36",,,Household,household,"Household Card"
+1244,Water,expense,20.00,GBP,"2026-07-13 10:55:00",,,Household,household,Water
+1264,"CapitalOne  CC",expense,120.00,GBP,"2026-07-13 09:49:45",,,James,personal,"Credit Cards"
+1395,"Work Lunch",expense,100.00,GBP,"2026-07-13 08:42:27",,,James,personal,"Work Lunch"
+1457,"Mobile Phone",expense,16.00,GBP,"2026-07-13 05:36:53",,,James,personal,"Mobile Phone"
+1470,TV,expense,13.00,GBP,"2026-07-13 03:28:21",,,James,personal,TV
+1259,Coal,expense,65.00,GBP,"2026-07-12 18:07:42",,,Household,household,Coal
+1380,"Laundry/dry cleaning",expense,20.00,GBP,"2026-07-12 11:24:42",,,James,personal,"Laundry/dry cleaning"
+1117,Home,expense,31.91,GBP,"2026-07-12 09:00:20",,,Household,household,Home
+1452,Vet/medical,expense,25.00,GBP,"2026-07-12 07:29:48",,,James,personal,Vet/medical
+1408,Rent/mortgage,expense,440.00,GBP,"2026-07-11 23:09:47",,,James,personal,Rent/mortgage
+1489,Internet,expense,35.00,GBP,"2026-07-11 21:40:50",,,James,personal,Internet
+1456,"Mobile Phone",expense,16.00,GBP,"2026-07-11 18:14:19",,,James,personal,"Mobile Phone"
+1233,Gas,expense,40.00,GBP,"2026-07-11 16:20:45",,,Household,household,Gas
+1007,"Household Card",expense,40.00,GBP,"2026-07-11 08:20:46",,,Household,household,"Household Card"
+1175,Fuel,expense,90.00,GBP,"2026-07-11 04:51:51",,,Household,household,Fuel
+1043,Cleaning,expense,10.00,GBP,"2026-07-11 03:00:27",,,Household,household,Cleaning
+1378,"Laundry/dry cleaning",expense,20.00,GBP,"2026-07-10 23:47:39",,,James,personal,"Laundry/dry cleaning"
+1167,"Online services",expense,10.00,GBP,"2026-07-10 20:41:04",,,Household,household,"Online services"
+1238,Gas,expense,40.00,GBP,"2026-07-10 18:20:59",,,Household,household,Gas
+1256,Coal,expense,65.00,GBP,"2026-07-10 18:06:26",,,Household,household,Coal
+1195,TV,expense,13.37,GBP,"2026-07-10 14:25:02",,,Household,household,TV
+1077,Rent/mortgage,expense,426.94,GBP,"2026-07-10 14:19:28",,,Household,household,Rent/mortgage
+1213,Internet,expense,28.00,GBP,"2026-07-10 13:16:24",,,Household,household,Internet
+1293,"Barcleycard CC",expense,120.00,GBP,"2026-07-10 12:38:53",,,James,personal,"Credit Cards"
+1188,Phone,expense,7.00,GBP,"2026-07-09 06:11:07",,,Household,household,Phone
+1480,Internet,expense,35.00,GBP,"2026-07-09 06:01:48",,,James,personal,Internet
+1298,"Zopa Personal Loan",expense,120.00,GBP,"2026-07-09 04:11:04",,,James,personal,Loans
+1529,Coal,expense,60.00,GBP,"2026-07-09 02:35:24",,,James,personal,Coal
+1453,Vet/medical,expense,25.00,GBP,"2026-07-09 01:13:03",,,James,personal,Vet/medical
+1326,Music,expense,10.00,GBP,"2026-07-08 22:19:34",,,James,personal,Music
+1250,Water,expense,20.00,GBP,"2026-07-08 21:09:57",,,Household,household,Water
+1241,Gas,expense,40.00,GBP,"2026-07-08 09:59:15",,,Household,household,Gas
+1305,"Zopa Personal Loan",expense,120.00,GBP,"2026-07-08 07:15:18",,,James,personal,Loans
+1352,"Personal supplies",expense,160.00,GBP,"2026-07-07 18:31:46",,,James,personal,"Personal supplies"
+1014,Groceries,expense,300.00,GBP,"2026-07-07 14:46:01",,,Household,household,Groceries
+1363,Clothes,expense,50.00,GBP,"2026-07-07 10:33:13",,,James,personal,Clothes
+1150,Vet/medical,expense,25.00,GBP,"2026-07-07 09:44:51",,,Household,household,Vet/medical
+1126,Pet,expense,67.74,GBP,"2026-07-07 09:10:24",,,Household,household,Pet
+1057,Subscriptions,expense,10.00,GBP,"2026-07-07 00:46:37",,,Household,household,Subscriptions
+1013,Groceries,expense,300.00,GBP,"2026-07-06 14:35:55",,,Household,household,Groceries
+1116,Home,expense,31.91,GBP,"2026-07-06 06:28:53",,,Household,household,Home
+1105,Maintenance,expense,10.00,GBP,"2026-07-06 03:45:47",,,Household,household,Maintenance
+1490,Electricity,expense,50.00,GBP,"2026-07-06 02:22:39",,,James,personal,Electricity
+1396,"Work Lunch",expense,100.00,GBP,"2026-07-06 02:03:14",,,James,personal,"Work Lunch"
+1055,Subscriptions,expense,10.00,GBP,"2026-07-05 23:50:29",,,Household,household,Subscriptions
+1463,"Mobile Phone",expense,16.00,GBP,"2026-07-05 20:33:48",,,James,personal,"Mobile Phone"
+1419,"Council Tax",expense,90.00,GBP,"2026-07-05 13:42:54",,,James,personal,"Council Tax"
+1471,TV,expense,13.00,GBP,"2026-07-05 10:28:48",,,James,personal,TV
+1373,"Laundry/dry cleaning",expense,20.00,GBP,"2026-07-04 15:13:46",,,James,personal,"Laundry/dry cleaning"
+1375,"Laundry/dry cleaning",expense,20.00,GBP,"2026-07-04 08:42:27",,,James,personal,"Laundry/dry cleaning"
+1517,Water,expense,20.00,GBP,"2026-07-04 04:47:44",,,James,personal,Water
+1141,Food,expense,65.00,GBP,"2026-07-04 04:27:22",,,Household,household,Food
+1417,Rent/mortgage,expense,440.00,GBP,"2026-07-04 04:11:57",,,James,personal,Rent/mortgage
+1379,"Laundry/dry cleaning",expense,20.00,GBP,"2026-07-04 03:09:09",,,James,personal,"Laundry/dry cleaning"
+1454,"Mobile Phone",expense,16.00,GBP,"2026-07-04 01:37:18",,,James,personal,"Mobile Phone"
+1208,Internet,expense,28.00,GBP,"2026-07-03 11:51:05",,,Household,household,Internet
+1523,Water,expense,20.00,GBP,"2026-07-03 10:35:05",,,James,personal,Water
+1313,Overdraft,expense,120.00,GBP,"2026-07-03 10:20:31",,,James,personal,Overdraft
+1356,"Personal supplies",expense,160.00,GBP,"2026-07-03 07:25:31",,,James,personal,"Personal supplies"
+1358,Clothes,expense,50.00,GBP,"2026-07-03 07:22:25",,,James,personal,Clothes
+1177,Fuel,expense,90.00,GBP,"2026-07-03 06:52:27",,,Household,household,Fuel
+1094,"Council Tax",expense,118.00,GBP,"2026-07-03 06:04:09",,,Household,household,"Council Tax"
+1478,Internet,expense,35.00,GBP,"2026-07-02 19:07:59",,,James,personal,Internet
+1484,Internet,expense,35.00,GBP,"2026-07-02 14:27:50",,,James,personal,Internet
+1068,"Vitamins & Minireals",expense,5.00,GBP,"2026-07-02 10:33:47",,,Household,household,"Vitamins & Minireals"
+1099,Maintenance,expense,10.00,GBP,"2026-07-02 01:27:38",,,Household,household,Maintenance
+1474,TV,expense,13.00,GBP,"2026-07-01 18:19:37",,,James,personal,TV
+1203,TV,expense,13.37,GBP,"2026-07-01 16:37:39",,,Household,household,TV
+1443,Vet/medical,expense,25.00,GBP,"2026-07-01 14:28:16",,,James,personal,Vet/medical
+1324,Music,expense,10.00,GBP,"2026-07-01 11:40:38",,,James,personal,Music
+1151,Vet/medical,expense,25.00,GBP,"2026-07-01 01:14:52",,,Household,household,Vet/medical
+1127,Pet,expense,67.74,GBP,"2026-06-30 23:03:20",,,Household,household,Pet
+1010,"Household Card",expense,40.00,GBP,"2026-06-30 21:46:54",,,Household,household,"Household Card"
+1243,Water,expense,20.00,GBP,"2026-06-30 13:44:29",,,Household,household,Water
+1361,Clothes,expense,50.00,GBP,"2026-06-30 13:27:58",,,James,personal,Clothes
+1382,Hair/beauty,expense,20.00,GBP,"2026-06-30 10:48:07",,,James,personal,Hair/beauty
+1182,Supplies,expense,5.00,GBP,"2026-06-30 02:29:26",,,Household,household,Supplies
+1207,Internet,expense,28.00,GBP,"2026-06-29 18:00:20",,,Household,household,Internet
+1170,Fuel,expense,90.00,GBP,"2026-06-29 11:05:39",,,Household,household,Fuel
+1054,Subscriptions,expense,10.00,GBP,"2026-06-29 09:46:13",,,Household,household,Subscriptions
+1257,Coal,expense,65.00,GBP,"2026-06-29 09:11:03",,,Household,household,Coal
+1051,Subscriptions,expense,10.00,GBP,"2026-06-28 21:55:27",,,Household,household,Subscriptions
+1262,"CapitalOne  CC",expense,120.00,GBP,"2026-06-28 18:57:14",,,James,personal,"Credit Cards"
+1211,Internet,expense,28.00,GBP,"2026-06-28 07:49:42",,,Household,household,Internet
+1255,Coal,expense,65.00,GBP,"2026-06-28 07:09:46",,,Household,household,Coal
+1149,Vet/medical,expense,25.00,GBP,"2026-06-28 00:36:16",,,Household,household,Vet/medical
+1260,Coal,expense,65.00,GBP,"2026-06-27 21:21:28",,,Household,household,Coal
+1187,Phone,expense,7.00,GBP,"2026-06-27 19:07:53",,,Household,household,Phone
+1061,"Vitamins & Minireals",expense,5.00,GBP,"2026-06-27 10:16:36",,,Household,household,"Vitamins & Minireals"
+1299,"Zopa Personal Loan",expense,120.00,GBP,"2026-06-27 05:23:31",,,James,personal,Loans
+1493,Electricity,expense,50.00,GBP,"2026-06-27 03:44:10",,,James,personal,Electricity
+1194,Phone,expense,7.00,GBP,"2026-06-26 23:01:53",,,Household,household,Phone
+1254,Water,expense,20.00,GBP,"2026-06-26 19:37:37",,,Household,household,Water
+1466,TV,expense,13.00,GBP,"2026-06-26 07:31:03",,,James,personal,TV
+1100,Maintenance,expense,10.00,GBP,"2026-06-26 03:42:01",,,Household,household,Maintenance
+1518,Water,expense,20.00,GBP,"2026-06-26 01:28:12",,,James,personal,Water
+1511,Gas,expense,40.00,GBP,"2026-06-25 20:01:58",,,James,personal,Gas
+1034,"Laundry/dry cleaning",expense,15.00,GBP,"2026-06-25 18:20:43",,,Household,household,"Laundry/dry cleaning"
+1311,Overdraft,expense,120.00,GBP,"2026-06-25 11:57:41",,,James,personal,Overdraft
+1196,TV,expense,13.37,GBP,"2026-06-25 11:48:56",,,Household,household,TV
+1533,Coal,expense,60.00,GBP,"2026-06-25 09:46:56",,,James,personal,Coal
+1292,"Barcleycard CC",expense,120.00,GBP,"2026-06-25 09:28:25",,,James,personal,"Credit Cards"
+1530,Coal,expense,60.00,GBP,"2026-06-25 02:05:37",,,James,personal,Coal
+1410,Rent/mortgage,expense,440.00,GBP,"2026-06-24 19:45:19",,,James,personal,Rent/mortgage
+1019,Groceries,expense,300.00,GBP,"2026-06-24 17:01:19",,,Household,household,Groceries
+1130,Pet,expense,67.74,GBP,"2026-06-24 15:08:47",,,Household,household,Pet
+1302,"Zopa Personal Loan",expense,120.00,GBP,"2026-06-24 14:34:49",,,James,personal,Loans
+1137,Food,expense,65.00,GBP,"2026-06-24 08:27:38",,,Household,household,Food
+1065,"Vitamins & Minireals",expense,5.00,GBP,"2026-06-24 02:31:21",,,Household,household,"Vitamins & Minireals"
+1215,Internet,expense,28.00,GBP,"2026-06-23 21:13:54",,,Household,household,Internet
+1491,Electricity,expense,50.00,GBP,"2026-06-23 19:38:46",,,James,personal,Electricity
+1197,TV,expense,13.37,GBP,"2026-06-23 18:44:38",,,Household,household,TV
+1263,"CapitalOne  CC",expense,120.00,GBP,"2026-06-23 16:11:45",,,James,personal,"Credit Cards"
+1118,Home,expense,31.91,GBP,"2026-06-23 13:59:22",,,Household,household,Home
+1050,Subscriptions,expense,10.00,GBP,"2026-06-23 05:19:28",,,Household,household,Subscriptions
+1125,Pet,expense,67.74,GBP,"2026-06-22 19:48:19",,,Household,household,Pet
+1192,Phone,expense,7.00,GBP,"2026-06-22 16:41:43",,,Household,household,Phone
+1486,Internet,expense,35.00,GBP,"2026-06-22 15:20:22",,,James,personal,Internet
+1398,"Work Lunch",expense,100.00,GBP,"2026-06-22 13:03:04",,,James,personal,"Work Lunch"
+1075,Rent/mortgage,expense,426.94,GBP,"2026-06-21 14:08:19",,,Household,household,Rent/mortgage
+1328,Music,expense,10.00,GBP,"2026-06-21 11:49:34",,,James,personal,Music
+1103,Maintenance,expense,10.00,GBP,"2026-06-21 11:14:24",,,Household,household,Maintenance
+1108,Home,expense,31.91,GBP,"2026-06-21 08:35:53",,,Household,household,Home
+1520,Water,expense,20.00,GBP,"2026-06-21 03:10:56",,,James,personal,Water
+1232,Gas,expense,40.00,GBP,"2026-06-21 00:06:05",,,Household,household,Gas
+1221,Electricity,expense,50.00,GBP,"2026-06-20 21:54:06",,,Household,household,Electricity
+1270,"CapitalOne  CC",expense,120.00,GBP,"2026-06-20 17:49:04",,,James,personal,"Credit Cards"
+1115,Home,expense,31.91,GBP,"2026-06-20 10:17:36",,,Household,household,Home
+1438,Food,expense,45.00,GBP,"2026-06-19 12:46:41",,,James,personal,Food
+1157,"Online services",expense,10.00,GBP,"2026-06-19 08:18:42",,,Household,household,"Online services"
+1113,Home,expense,31.91,GBP,"2026-06-19 03:07:29",,,Household,household,Home
+1179,Fuel,expense,90.00,GBP,"2026-06-19 02:38:15",,,Household,household,Fuel
+1431,Food,expense,45.00,GBP,"2026-06-18 23:58:33",,,James,personal,Food
+1026,"Laundry/dry cleaning",expense,15.00,GBP,"2026-06-18 21:38:19",,,Household,household,"Laundry/dry cleaning"
+1449,Vet/medical,expense,25.00,GBP,"2026-06-18 20:19:06",,,James,personal,Vet/medical
+1350,"Personal supplies",expense,160.00,GBP,"2026-06-18 18:55:47",,,James,personal,"Personal supplies"
+1499,Electricity,expense,50.00,GBP,"2026-06-18 18:55:40",,,James,personal,Electricity
+1413,Rent/mortgage,expense,440.00,GBP,"2026-06-18 15:38:27",,,James,personal,Rent/mortgage
+1459,"Mobile Phone",expense,16.00,GBP,"2026-06-18 11:45:37",,,James,personal,"Mobile Phone"
+1163,"Online services",expense,10.00,GBP,"2026-06-18 05:01:44",,,Household,household,"Online services"
+1514,Water,expense,20.00,GBP,"2026-06-18 04:48:04",,,James,personal,Water
+1201,TV,expense,13.37,GBP,"2026-06-17 19:20:39",,,Household,household,TV
+1411,Rent/mortgage,expense,440.00,GBP,"2026-06-17 17:12:52",,,James,personal,Rent/mortgage
+1035,"Laundry/dry cleaning",expense,15.00,GBP,"2026-06-17 16:00:37",,,Household,household,"Laundry/dry cleaning"
+1437,Food,expense,45.00,GBP,"2026-06-17 14:41:33",,,James,personal,Food
+1159,"Online services",expense,10.00,GBP,"2026-06-17 09:26:22",,,Household,household,"Online services"
+1074,Rent/mortgage,expense,426.94,GBP,"2026-06-17 09:05:40",,,Household,household,Rent/mortgage
+1226,Electricity,expense,50.00,GBP,"2026-06-17 06:29:42",,,Household,household,Electricity
+1053,Subscriptions,expense,10.00,GBP,"2026-06-17 04:08:37",,,Household,household,Subscriptions
+1217,Internet,expense,28.00,GBP,"2026-06-17 00:32:07",,,Household,household,Internet
+1023,Groceries,expense,300.00,GBP,"2026-06-16 20:35:30",,,Household,household,Groceries
+1098,Maintenance,expense,10.00,GBP,"2026-06-16 17:37:00",,,Household,household,Maintenance
+1426,"Council Tax",expense,90.00,GBP,"2026-06-16 11:10:07",,,James,personal,"Council Tax"
+1058,Subscriptions,expense,10.00,GBP,"2026-06-16 11:03:57",,,Household,household,Subscriptions
+1107,Maintenance,expense,10.00,GBP,"2026-06-16 09:52:53",,,Household,household,Maintenance
+1349,"Personal supplies",expense,160.00,GBP,"2026-06-16 03:50:43",,,James,personal,"Personal supplies"
+1498,Electricity,expense,50.00,GBP,"2026-06-15 23:27:57",,,James,personal,Electricity
+1191,Phone,expense,7.00,GBP,"2026-06-15 21:05:35",,,Household,household,Phone
+1218,Internet,expense,28.00,GBP,"2026-06-15 15:30:42",,,Household,household,Internet
+1123,Pet,expense,67.74,GBP,"2026-06-15 09:31:13",,,Household,household,Pet
+1318,Overdraft,expense,120.00,GBP,"2026-06-15 06:19:39",,,James,personal,Overdraft
+1436,Food,expense,45.00,GBP,"2026-06-15 05:21:01",,,James,personal,Food
+1251,Water,expense,20.00,GBP,"2026-06-15 02:39:48",,,Household,household,Water
+1172,Fuel,expense,90.00,GBP,"2026-06-15 00:13:58",,,Household,household,Fuel
+1190,Phone,expense,7.00,GBP,"2026-06-14 11:44:18",,,Household,household,Phone
+1080,Rent/mortgage,expense,426.94,GBP,"2026-06-14 10:49:22",,,Household,household,Rent/mortgage
+1492,Electricity,expense,50.00,GBP,"2026-06-14 08:10:56",,,James,personal,Electricity
+1421,"Council Tax",expense,90.00,GBP,"2026-06-14 00:38:52",,,James,personal,"Council Tax"
+1246,Water,expense,20.00,GBP,"2026-06-13 17:23:49",,,Household,household,Water
+1441,Food,expense,45.00,GBP,"2026-06-13 11:29:39",,,James,personal,Food
+1445,Vet/medical,expense,25.00,GBP,"2026-06-12 14:01:30",,,James,personal,Vet/medical
+1274,"VirginMoney  CC",expense,120.00,GBP,"2026-06-12 12:07:17",,,James,personal,"Credit Cards"
+1485,Internet,expense,35.00,GBP,"2026-06-12 08:09:39",,,James,personal,Internet
+1114,Home,expense,31.91,GBP,"2026-06-11 22:00:05",,,Household,household,Home
+1450,Vet/medical,expense,25.00,GBP,"2026-06-11 12:19:08",,,James,personal,Vet/medical
+1265,"CapitalOne  CC",expense,120.00,GBP,"2026-06-11 10:21:45",,,James,personal,"Credit Cards"
+1245,Water,expense,20.00,GBP,"2026-06-11 05:24:59",,,Household,household,Water
+1206,TV,expense,13.37,GBP,"2026-06-11 05:01:00",,,Household,household,TV
+1317,Overdraft,expense,120.00,GBP,"2026-06-11 03:43:42",,,James,personal,Overdraft
+1374,"Laundry/dry cleaning",expense,20.00,GBP,"2026-06-10 22:56:17",,,James,personal,"Laundry/dry cleaning"
+1455,"Mobile Phone",expense,16.00,GBP,"2026-06-10 15:28:27",,,James,personal,"Mobile Phone"
+1147,Vet/medical,expense,25.00,GBP,"2026-06-10 14:10:21",,,Household,household,Vet/medical
+1476,TV,expense,13.00,GBP,"2026-06-09 19:42:44",,,James,personal,TV
+1076,Rent/mortgage,expense,426.94,GBP,"2026-06-09 17:38:43",,,Household,household,Rent/mortgage
+1355,"Personal supplies",expense,160.00,GBP,"2026-06-09 16:22:41",,,James,personal,"Personal supplies"
+1154,Vet/medical,expense,25.00,GBP,"2026-06-09 13:15:20",,,Household,household,Vet/medical
+1409,Rent/mortgage,expense,440.00,GBP,"2026-06-09 13:06:25",,,James,personal,Rent/mortgage
+1414,Rent/mortgage,expense,440.00,GBP,"2026-06-09 13:03:06",,,James,personal,Rent/mortgage
+1369,Clothes,expense,50.00,GBP,"2026-06-09 07:22:56",,,James,personal,Clothes
+1012,Groceries,expense,300.00,GBP,"2026-06-09 03:51:32",,,Household,household,Groceries
+1067,"Vitamins & Minireals",expense,5.00,GBP,"2026-06-08 23:46:08",,,Household,household,"Vitamins & Minireals"
+1138,Food,expense,65.00,GBP,"2026-06-08 23:29:45",,,Household,household,Food
+1300,"Zopa Personal Loan",expense,120.00,GBP,"2026-06-08 22:20:01",,,James,personal,Loans
+1285,"VirginMoney  CC",expense,120.00,GBP,"2026-06-08 13:19:07",,,James,personal,"Credit Cards"
+1391,Hair/beauty,expense,20.00,GBP,"2026-06-08 10:44:42",,,James,personal,Hair/beauty
+1534,Coal,expense,60.00,GBP,"2026-06-07 10:22:07",,,James,personal,Coal
+1106,Maintenance,expense,10.00,GBP,"2026-06-06 20:38:37",,,Household,household,Maintenance
+1465,"Mobile Phone",expense,16.00,GBP,"2026-06-06 19:47:40",,,James,personal,"Mobile Phone"
+1253,Water,expense,20.00,GBP,"2026-06-06 19:33:48",,,Household,household,Water
+1088,"Council Tax",expense,118.00,GBP,"2026-06-06 16:24:08",,,Household,household,"Council Tax"
+1339,Groceries,expense,320.00,GBP,"2026-06-06 11:40:50",,,James,personal,Groceries
+1283,"VirginMoney  CC",expense,120.00,GBP,"2026-06-06 06:19:45",,,James,personal,"Credit Cards"
+1464,"Mobile Phone",expense,16.00,GBP,"2026-06-06 02:52:15",,,James,personal,"Mobile Phone"
+1234,Gas,expense,40.00,GBP,"2026-06-05 23:45:16",,,Household,household,Gas
+1073,Rent/mortgage,expense,426.94,GBP,"2026-06-05 19:26:32",,,Household,household,Rent/mortgage
+1266,"CapitalOne  CC",expense,120.00,GBP,"2026-06-05 17:10:42",,,James,personal,"Credit Cards"
+1071,"Vitamins & Minireals",expense,5.00,GBP,"2026-06-05 17:02:21",,,Household,household,"Vitamins & Minireals"
+1006,"Household Card",expense,40.00,GBP,"2026-06-05 14:22:53",,,Household,household,"Household Card"
+1110,Home,expense,31.91,GBP,"2026-06-05 03:15:31",,,Household,household,Home
+1005,"Household Card",expense,40.00,GBP,"2026-06-05 02:09:16",,,Household,household,"Household Card"
+1475,TV,expense,13.00,GBP,"2026-06-04 20:12:09",,,James,personal,TV
+1348,"Personal supplies",expense,160.00,GBP,"2026-06-04 17:23:50",,,James,personal,"Personal supplies"
+1225,Electricity,expense,50.00,GBP,"2026-06-04 14:17:44",,,Household,household,Electricity
+1381,"Laundry/dry cleaning",expense,20.00,GBP,"2026-06-04 07:24:01",,,James,personal,"Laundry/dry cleaning"
+1235,Gas,expense,40.00,GBP,"2026-06-04 06:43:57",,,Household,household,Gas
+1519,Water,expense,20.00,GBP,"2026-06-04 04:41:46",,,James,personal,Water
+1500,Electricity,expense,50.00,GBP,"2026-06-04 02:05:47",,,James,personal,Electricity
+1385,Hair/beauty,expense,20.00,GBP,"2026-06-04 02:04:43",,,James,personal,Hair/beauty
+1440,Food,expense,45.00,GBP,"2026-06-03 21:21:28",,,James,personal,Food
+1097,Maintenance,expense,10.00,GBP,"2026-06-03 20:46:09",,,Household,household,Maintenance
+1185,Phone,expense,7.00,GBP,"2026-06-03 20:10:04",,,Household,household,Phone
+1021,Groceries,expense,300.00,GBP,"2026-06-03 15:39:41",,,Household,household,Groceries
+1416,Rent/mortgage,expense,440.00,GBP,"2026-06-03 11:29:06",,,James,personal,Rent/mortgage
+1377,"Laundry/dry cleaning",expense,20.00,GBP,"2026-06-03 01:08:35",,,James,personal,"Laundry/dry cleaning"
+1320,Overdraft,expense,120.00,GBP,"2026-06-02 20:39:42",,,James,personal,Overdraft
+1186,Phone,expense,7.00,GBP,"2026-06-02 06:12:14",,,Household,household,Phone
+1304,"Zopa Personal Loan",expense,120.00,GBP,"2026-06-02 02:36:15",,,James,personal,Loans
+1176,Fuel,expense,90.00,GBP,"2026-06-01 23:59:25",,,Household,household,Fuel
+1420,"Council Tax",expense,90.00,GBP,"2026-06-01 20:45:23",,,James,personal,"Council Tax"
+1015,Groceries,expense,300.00,GBP,"2026-06-01 18:53:52",,,Household,household,Groceries
+1444,Vet/medical,expense,25.00,GBP,"2026-06-01 17:05:50",,,James,personal,Vet/medical
+1165,"Online services",expense,10.00,GBP,"2026-06-01 10:57:53",,,Household,household,"Online services"
+1342,Groceries,expense,320.00,GBP,"2026-06-01 07:20:22",,,James,personal,Groceries
+1129,Pet,expense,67.74,GBP,"2026-06-01 04:55:45",,,Household,household,Pet
+1397,"Work Lunch",expense,100.00,GBP,"2026-06-01 03:53:46",,,James,personal,"Work Lunch"
+1011,"Household Card",expense,40.00,GBP,"2026-05-31 12:24:20",,,Household,household,"Household Card"
+1386,Hair/beauty,expense,20.00,GBP,"2026-05-31 09:57:11",,,James,personal,Hair/beauty
+1435,Food,expense,45.00,GBP,"2026-05-31 08:00:14",,,James,personal,Food
+1200,TV,expense,13.37,GBP,"2026-05-31 02:21:00",,,Household,household,TV
+1507,Gas,expense,40.00,GBP,"2026-05-30 22:16:53",,,James,personal,Gas
+1000,"Household Card",expense,40.00,GBP,"2026-05-30 15:12:19",,,Household,household,"Household Card"
+1401,"Work Lunch",expense,100.00,GBP,"2026-05-30 14:29:29",,,James,personal,"Work Lunch"
+1052,Subscriptions,expense,10.00,GBP,"2026-05-30 12:44:15",,,Household,household,Subscriptions
+1181,Supplies,expense,5.00,GBP,"2026-05-30 11:03:19",,,Household,household,Supplies
+1362,Clothes,expense,50.00,GBP,"2026-05-30 10:38:21",,,James,personal,Clothes
+1183,Phone,expense,7.00,GBP,"2026-05-30 06:18:20",,,Household,household,Phone
+1448,Vet/medical,expense,25.00,GBP,"2026-05-30 04:00:16",,,James,personal,Vet/medical
+1294,"Barcleycard CC",expense,120.00,GBP,"2026-05-30 03:14:29",,,James,personal,"Credit Cards"
+1321,Overdraft,expense,120.00,GBP,"2026-05-29 10:39:28",,,James,personal,Overdraft
+1503,Gas,expense,40.00,GBP,"2026-05-29 08:21:51",,,James,personal,Gas
+1460,"Mobile Phone",expense,16.00,GBP,"2026-05-29 08:15:28",,,James,personal,"Mobile Phone"
+1158,"Online services",expense,10.00,GBP,"2026-05-29 03:39:01",,,Household,household,"Online services"
+1366,Clothes,expense,50.00,GBP,"2026-05-28 05:05:33",,,James,personal,Clothes
+1303,"Zopa Personal Loan",expense,120.00,GBP,"2026-05-28 03:48:50",,,James,personal,Loans
+1389,Hair/beauty,expense,20.00,GBP,"2026-05-27 21:38:59",,,James,personal,Hair/beauty
+1319,Overdraft,expense,120.00,GBP,"2026-05-27 17:16:12",,,James,personal,Overdraft
+1160,"Online services",expense,10.00,GBP,"2026-05-27 12:14:34",,,Household,household,"Online services"
+1368,Clothes,expense,50.00,GBP,"2026-05-27 06:26:23",,,James,personal,Clothes
+1134,Food,expense,65.00,GBP,"2026-05-27 02:41:42",,,Household,household,Food
+1128,Pet,expense,67.74,GBP,"2026-05-26 23:00:06",,,Household,household,Pet
+1152,Vet/medical,expense,25.00,GBP,"2026-05-26 20:49:36",,,Household,household,Vet/medical
+1169,Fuel,expense,90.00,GBP,"2026-05-26 20:12:35",,,Household,household,Fuel
+1312,Overdraft,expense,120.00,GBP,"2026-05-26 20:10:20",,,James,personal,Overdraft
+1161,"Online services",expense,10.00,GBP,"2026-05-26 16:24:19",,,Household,household,"Online services"
+1002,"Household Card",expense,40.00,GBP,"2026-05-26 12:05:46",,,Household,household,"Household Card"
+1387,Hair/beauty,expense,20.00,GBP,"2026-05-26 05:38:28",,,James,personal,Hair/beauty
+1405,"Work Lunch",expense,100.00,GBP,"2026-05-26 00:24:01",,,James,personal,"Work Lunch"
+1467,TV,expense,13.00,GBP,"2026-05-25 23:39:42",,,James,personal,TV
+1536,Coal,expense,60.00,GBP,"2026-05-25 21:06:01",,,James,personal,Coal
+1515,Water,expense,20.00,GBP,"2026-05-25 19:36:55",,,James,personal,Water
+1415,Rent/mortgage,expense,440.00,GBP,"2026-05-25 16:35:07",,,James,personal,Rent/mortgage
+1140,Food,expense,65.00,GBP,"2026-05-25 11:03:19",,,Household,household,Food
+1439,Food,expense,45.00,GBP,"2026-05-25 06:22:36",,,James,personal,Food
+1335,Groceries,expense,320.00,GBP,"2026-05-25 04:00:48",,,James,personal,Groceries
+1093,"Council Tax",expense,118.00,GBP,"2026-05-25 00:45:30",,,Household,household,"Council Tax"
+1248,Water,expense,20.00,GBP,"2026-05-24 22:27:40",,,Household,household,Water
+1309,"Zopa Personal Loan",expense,120.00,GBP,"2026-05-24 20:37:03",,,James,personal,Loans
+1210,Internet,expense,28.00,GBP,"2026-05-24 16:46:01",,,Household,household,Internet
+1227,Electricity,expense,50.00,GBP,"2026-05-24 15:26:09",,,Household,household,Electricity
+1354,"Personal supplies",expense,160.00,GBP,"2026-05-24 12:54:17",,,James,personal,"Personal supplies"
+1506,Gas,expense,40.00,GBP,"2026-05-24 02:22:52",,,James,personal,Gas
+1502,Gas,expense,40.00,GBP,"2026-05-23 21:15:21",,,James,personal,Gas
+1064,"Vitamins & Minireals",expense,5.00,GBP,"2026-05-23 19:50:44",,,Household,household,"Vitamins & Minireals"
+1036,Cleaning,expense,10.00,GBP,"2026-05-23 16:43:58",,,Household,household,Cleaning
+1447,Vet/medical,expense,25.00,GBP,"2026-05-23 13:24:57",,,James,personal,Vet/medical
+1388,Hair/beauty,expense,20.00,GBP,"2026-05-23 11:34:57",,,James,personal,Hair/beauty
+1357,"Personal supplies",expense,160.00,GBP,"2026-05-23 08:51:52",,,James,personal,"Personal supplies"
+1166,"Online services",expense,10.00,GBP,"2026-05-23 05:45:57",,,Household,household,"Online services"
+1308,"Zopa Personal Loan",expense,120.00,GBP,"2026-05-23 02:02:11",,,James,personal,Loans
+1228,Electricity,expense,50.00,GBP,"2026-05-22 20:27:13",,,Household,household,Electricity
+1364,Clothes,expense,50.00,GBP,"2026-05-22 13:22:39",,,James,personal,Clothes
+1406,Rent/mortgage,expense,440.00,GBP,"2026-05-22 13:19:38",,,James,personal,Rent/mortgage
+1477,TV,expense,13.00,GBP,"2026-05-22 09:08:12",,,James,personal,TV
+1082,Rent/mortgage,expense,426.94,GBP,"2026-05-22 08:02:05",,,Household,household,Rent/mortgage
+1145,Vet/medical,expense,25.00,GBP,"2026-05-22 07:16:16",,,Household,household,Vet/medical
+1144,Vet/medical,expense,25.00,GBP,"2026-05-22 06:17:44",,,Household,household,Vet/medical
+1334,Groceries,expense,320.00,GBP,"2026-05-22 04:55:26",,,James,personal,Groceries
+1501,Electricity,expense,50.00,GBP,"2026-05-22 00:11:36",,,James,personal,Electricity
+1066,"Vitamins & Minireals",expense,5.00,GBP,"2026-05-21 23:16:08",,,Household,household,"Vitamins & Minireals"
+1295,"Barcleycard CC",expense,120.00,GBP,"2026-05-21 14:04:13",,,James,personal,"Credit Cards"
+1428,"Council Tax",expense,90.00,GBP,"2026-05-21 11:36:32",,,James,personal,"Council Tax"
+1268,"CapitalOne  CC",expense,120.00,GBP,"2026-05-21 10:29:32",,,James,personal,"Credit Cards"
+1142,Food,expense,65.00,GBP,"2026-05-21 07:48:49",,,Household,household,Food
+1359,Clothes,expense,50.00,GBP,"2026-05-21 05:37:52",,,James,personal,Clothes
+1018,Groceries,expense,300.00,GBP,"2026-05-20 23:14:51",,,Household,household,Groceries
+1275,"VirginMoney  CC",expense,120.00,GBP,"2026-05-20 21:23:39",,,James,personal,"Credit Cards"
+1337,Groceries,expense,320.00,GBP,"2026-05-20 19:52:51",,,James,personal,Groceries
+1016,Groceries,expense,300.00,GBP,"2026-05-20 19:29:02",,,Household,household,Groceries
+1434,Food,expense,45.00,GBP,"2026-05-20 15:19:06",,,James,personal,Food
+1301,"Zopa Personal Loan",expense,120.00,GBP,"2026-05-20 12:41:42",,,James,personal,Loans
+1242,Gas,expense,40.00,GBP,"2026-05-20 09:55:07",,,Household,household,Gas
+1220,Electricity,expense,50.00,GBP,"2026-05-20 09:35:02",,,Household,household,Electricity
+1148,Vet/medical,expense,25.00,GBP,"2026-05-20 07:47:05",,,Household,household,Vet/medical
+1230,Electricity,expense,50.00,GBP,"2026-05-20 07:41:30",,,Household,household,Electricity
+1059,Subscriptions,expense,10.00,GBP,"2026-05-19 23:52:32",,,Household,household,Subscriptions
+1513,Gas,expense,40.00,GBP,"2026-05-19 20:44:54",,,James,personal,Gas
+1497,Electricity,expense,50.00,GBP,"2026-05-19 19:44:18",,,James,personal,Electricity
+1046,Cleaning,expense,10.00,GBP,"2026-05-19 19:39:33",,,Household,household,Cleaning
+1325,Music,expense,10.00,GBP,"2026-05-19 09:23:32",,,James,personal,Music
+1267,"CapitalOne  CC",expense,120.00,GBP,"2026-05-19 07:17:12",,,James,personal,"Credit Cards"
+1020,Groceries,expense,300.00,GBP,"2026-05-19 06:53:21",,,Household,household,Groceries
+1155,Vet/medical,expense,25.00,GBP,"2026-05-19 06:34:59",,,Household,household,Vet/medical
+1237,Gas,expense,40.00,GBP,"2026-05-19 00:40:11",,,Household,household,Gas
+1180,Supplies,expense,5.00,GBP,"2026-05-18 16:33:22",,,Household,household,Supplies
+1532,Coal,expense,60.00,GBP,"2026-05-18 13:14:31",,,James,personal,Coal
+1171,Fuel,expense,90.00,GBP,"2026-05-18 12:51:14",,,Household,household,Fuel
+1048,Subscriptions,expense,10.00,GBP,"2026-05-18 09:29:25",,,Household,household,Subscriptions
+1279,"VirginMoney  CC",expense,120.00,GBP,"2026-05-18 07:07:49",,,James,personal,"Credit Cards"
+1212,Internet,expense,28.00,GBP,"2026-05-18 02:42:51",,,Household,household,Internet
+1365,Clothes,expense,50.00,GBP,"2026-05-17 20:08:45",,,James,personal,Clothes
+1038,Cleaning,expense,10.00,GBP,"2026-05-17 15:00:03",,,Household,household,Cleaning
+1047,Cleaning,expense,10.00,GBP,"2026-05-17 04:46:37",,,Household,household,Cleaning
+1461,"Mobile Phone",expense,16.00,GBP,"2026-05-17 04:25:41",,,James,personal,"Mobile Phone"
+1072,Rent/mortgage,expense,426.94,GBP,"2026-05-17 02:26:37",,,Household,household,Rent/mortgage
+1412,Rent/mortgage,expense,440.00,GBP,"2026-05-16 20:51:35",,,James,personal,Rent/mortgage
+1143,Food,expense,65.00,GBP,"2026-05-16 08:30:22",,,Household,household,Food
+1086,"Council Tax",expense,118.00,GBP,"2026-05-16 00:09:55",,,Household,household,"Council Tax"
+1496,Electricity,expense,50.00,GBP,"2026-05-15 21:57:33",,,James,personal,Electricity
+1017,Groceries,expense,300.00,GBP,"2026-05-15 16:50:02",,,Household,household,Groceries
+1282,"VirginMoney  CC",expense,120.00,GBP,"2026-05-15 11:24:30",,,James,personal,"Credit Cards"
+1291,"Barcleycard CC",expense,120.00,GBP,"2026-05-15 09:48:24",,,James,personal,"Credit Cards"
+1422,"Council Tax",expense,90.00,GBP,"2026-05-15 06:02:21",,,James,personal,"Council Tax"
+1084,"Council Tax",expense,118.00,GBP,"2026-05-15 06:01:54",,,Household,household,"Council Tax"
+1286,"Barcleycard CC",expense,120.00,GBP,"2026-05-15 05:02:59",,,James,personal,"Credit Cards"
+1119,Home,expense,31.91,GBP,"2026-05-14 16:01:58",,,Household,household,Home
+1062,"Vitamins & Minireals",expense,5.00,GBP,"2026-05-14 06:19:40",,,Household,household,"Vitamins & Minireals"
+1239,Gas,expense,40.00,GBP,"2026-05-14 05:25:29",,,Household,household,Gas
+1037,Cleaning,expense,10.00,GBP,"2026-05-13 23:42:47",,,Household,household,Cleaning
+1371,"Laundry/dry cleaning",expense,20.00,GBP,"2026-05-13 17:09:32",,,James,personal,"Laundry/dry cleaning"
+1360,Clothes,expense,50.00,GBP,"2026-05-13 16:18:01",,,James,personal,Clothes
+1487,Internet,expense,35.00,GBP,"2026-05-13 14:50:04",,,James,personal,Internet
+1139,Food,expense,65.00,GBP,"2026-05-13 12:40:32",,,Household,household,Food
+1042,Cleaning,expense,10.00,GBP,"2026-05-13 08:58:29",,,Household,household,Cleaning
+1314,Overdraft,expense,120.00,GBP,"2026-05-13 02:15:44",,,James,personal,Overdraft
+1109,Home,expense,31.91,GBP,"2026-05-12 21:21:47",,,Household,household,Home
+1333,Music,expense,10.00,GBP,"2026-05-12 17:18:20",,,James,personal,Music
+1404,"Work Lunch",expense,100.00,GBP,"2026-05-12 10:15:03",,,James,personal,"Work Lunch"
+1060,"Vitamins & Minireals",expense,5.00,GBP,"2026-05-12 06:10:31",,,Household,household,"Vitamins & Minireals"
+1390,Hair/beauty,expense,20.00,GBP,"2026-05-12 04:08:33",,,James,personal,Hair/beauty
+1069,"Vitamins & Minireals",expense,5.00,GBP,"2026-05-12 00:49:25",,,Household,household,"Vitamins & Minireals"
+1178,Fuel,expense,90.00,GBP,"2026-05-11 18:37:36",,,Household,household,Fuel
+1323,Music,expense,10.00,GBP,"2026-05-11 14:14:01",,,James,personal,Music
+1001,"Household Card",expense,40.00,GBP,"2026-05-11 08:16:02",,,Household,household,"Household Card"
+1247,Water,expense,20.00,GBP,"2026-05-11 07:47:34",,,Household,household,Water
+1028,"Laundry/dry cleaning",expense,15.00,GBP,"2026-05-11 05:50:54",,,Household,household,"Laundry/dry cleaning"
+1209,Internet,expense,28.00,GBP,"2026-05-11 05:39:48",,,Household,household,Internet
+1479,Internet,expense,35.00,GBP,"2026-05-11 03:24:10",,,James,personal,Internet
+1512,Gas,expense,40.00,GBP,"2026-05-11 03:12:00",,,James,personal,Gas
+1425,"Council Tax",expense,90.00,GBP,"2026-05-11 01:33:01",,,James,personal,"Council Tax"
+1442,Vet/medical,expense,25.00,GBP,"2026-05-11 01:01:28",,,James,personal,Vet/medical
+1367,Clothes,expense,50.00,GBP,"2026-05-10 17:13:19",,,James,personal,Clothes
+1223,Electricity,expense,50.00,GBP,"2026-05-10 11:39:12",,,Household,household,Electricity
+1345,Groceries,expense,320.00,GBP,"2026-05-10 11:31:55",,,James,personal,Groceries
+1427,"Council Tax",expense,90.00,GBP,"2026-05-10 09:47:17",,,James,personal,"Council Tax"
+1153,Vet/medical,expense,25.00,GBP,"2026-05-10 04:19:44",,,Household,household,Vet/medical
+1504,Gas,expense,40.00,GBP,"2026-05-09 21:42:22",,,James,personal,Gas
+1278,"VirginMoney  CC",expense,120.00,GBP,"2026-05-09 19:10:04",,,James,personal,"Credit Cards"
+1510,Gas,expense,40.00,GBP,"2026-05-09 12:18:31",,,James,personal,Gas
+1273,"CapitalOne  CC",expense,120.00,GBP,"2026-05-09 11:50:25",,,James,personal,"Credit Cards"
+1104,Maintenance,expense,10.00,GBP,"2026-05-09 08:08:16",,,Household,household,Maintenance
+1524,Water,expense,20.00,GBP,"2026-05-09 03:18:18",,,James,personal,Water
+1009,"Household Card",expense,40.00,GBP,"2026-05-09 01:40:27",,,Household,household,"Household Card"
+1393,Hair/beauty,expense,20.00,GBP,"2026-05-08 17:54:04",,,James,personal,Hair/beauty
+1199,TV,expense,13.37,GBP,"2026-05-08 12:39:53",,,Household,household,TV
+1402,"Work Lunch",expense,100.00,GBP,"2026-05-08 00:29:17",,,James,personal,"Work Lunch"
+1482,Internet,expense,35.00,GBP,"2026-05-07 23:47:06",,,James,personal,Internet
+1063,"Vitamins & Minireals",expense,5.00,GBP,"2026-05-07 22:43:59",,,Household,household,"Vitamins & Minireals"
+1344,Groceries,expense,320.00,GBP,"2026-05-07 21:08:40",,,James,personal,Groceries
+1162,"Online services",expense,10.00,GBP,"2026-05-07 16:08:47",,,Household,household,"Online services"
+1276,"VirginMoney  CC",expense,120.00,GBP,"2026-05-07 15:40:40",,,James,personal,"Credit Cards"
+1284,"VirginMoney  CC",expense,120.00,GBP,"2026-05-07 05:07:14",,,James,personal,"Credit Cards"
+1494,Electricity,expense,50.00,GBP,"2026-05-07 02:21:11",,,James,personal,Electricity
+1488,Internet,expense,35.00,GBP,"2026-05-07 00:42:06",,,James,personal,Internet
+1495,Electricity,expense,50.00,GBP,"2026-05-06 23:10:51",,,James,personal,Electricity
+1343,Groceries,expense,320.00,GBP,"2026-05-06 16:45:28",,,James,personal,Groceries
+1029,"Laundry/dry cleaning",expense,15.00,GBP,"2026-05-06 11:38:19",,,Household,household,"Laundry/dry cleaning"
+1346,"Personal supplies",expense,160.00,GBP,"2026-05-06 10:11:18",,,James,personal,"Personal supplies"
+1472,TV,expense,13.00,GBP,"2026-05-06 07:21:21",,,James,personal,TV
+1222,Electricity,expense,50.00,GBP,"2026-05-06 04:35:30",,,Household,household,Electricity
+1528,Coal,expense,60.00,GBP,"2026-05-05 17:26:55",,,James,personal,Coal
+1249,Water,expense,20.00,GBP,"2026-05-05 17:13:48",,,Household,household,Water
+1316,Overdraft,expense,120.00,GBP,"2026-05-05 11:24:23",,,James,personal,Overdraft
+1173,Fuel,expense,90.00,GBP,"2026-05-05 10:54:43",,,Household,household,Fuel
+1372,"Laundry/dry cleaning",expense,20.00,GBP,"2026-05-05 10:54:05",,,James,personal,"Laundry/dry cleaning"
+1112,Home,expense,31.91,GBP,"2026-05-05 08:56:26",,,Household,household,Home
+1085,"Council Tax",expense,118.00,GBP,"2026-05-04 18:59:56",,,Household,household,"Council Tax"
+1347,"Personal supplies",expense,160.00,GBP,"2026-05-04 13:06:54",,,James,personal,"Personal supplies"
+1040,Cleaning,expense,10.00,GBP,"2026-05-04 10:26:56",,,Household,household,Cleaning
+1399,"Work Lunch",expense,100.00,GBP,"2026-05-04 08:29:19",,,James,personal,"Work Lunch"
+1376,"Laundry/dry cleaning",expense,20.00,GBP,"2026-05-04 08:13:45",,,James,personal,"Laundry/dry cleaning"
+1131,Pet,expense,67.74,GBP,"2026-05-04 06:47:41",,,Household,household,Pet
+1111,Home,expense,31.91,GBP,"2026-05-03 20:33:38",,,Household,household,Home
+1289,"Barcleycard CC",expense,120.00,GBP,"2026-05-03 19:06:58",,,James,personal,"Credit Cards"
+1204,TV,expense,13.37,GBP,"2026-05-02 22:48:53",,,Household,household,TV
+1041,Cleaning,expense,10.00,GBP,"2026-05-02 20:34:04",,,Household,household,Cleaning
+1122,Pet,expense,67.74,GBP,"2026-05-02 19:56:48",,,Household,household,Pet
+1338,Groceries,expense,320.00,GBP,"2026-05-02 10:21:14",,,James,personal,Groceries
+1024,"Laundry/dry cleaning",expense,15.00,GBP,"2026-05-02 03:38:15",,,Household,household,"Laundry/dry cleaning"
+1049,Subscriptions,expense,10.00,GBP,"2026-05-02 02:08:15",,,Household,household,Subscriptions
+1522,Water,expense,20.00,GBP,"2026-05-02 00:53:54",,,James,personal,Water
+1458,"Mobile Phone",expense,16.00,GBP,"2026-05-01 21:17:23",,,James,personal,"Mobile Phone"
+1216,Internet,expense,28.00,GBP,"2026-05-01 16:42:48",,,Household,household,Internet
+1031,"Laundry/dry cleaning",expense,15.00,GBP,"2026-05-01 15:25:33",,,Household,household,"Laundry/dry cleaning"
+1516,Water,expense,20.00,GBP,"2026-05-01 00:17:34",,,James,personal,Water
+1202,TV,expense,13.37,GBP,"2026-04-30 22:41:06",,,Household,household,TV
+1133,Food,expense,65.00,GBP,"2026-04-30 20:58:00",,,Household,household,Food

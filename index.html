@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The ForeverBox</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;400;600;900&family=Geist:wght@400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script src="interactions/assets/js/tailwind-config.js"></script>
+<link rel="stylesheet" href="interactions/assets/css/pages.css" />
+<link rel="stylesheet" href="interactions/assets/css/components.css" />
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden min-h-screen flex flex-col relative selection:bg-primary-container selection:text-on-primary-container">
+
+<div class="fixed inset-0 pointer-events-none z-[-1] hud-scanline"></div>
+
+<div class="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+    <!-- Background Image with Overlay -->
+    <div class="absolute inset-0 z-0">
+        <img src="history/assets/images/foreverbox-hero.jpg" alt="The ForeverBox in the ancient forest" class="w-full h-full object-cover object-center opacity-40 mix-blend-luminosity grayscale hover:grayscale-0 transition-all duration-1000">
+        <div class="absolute inset-0 bg-gradient-to-b from-background/40 via-background/80 to-background"></div>
+        <div class="absolute inset-0 bg-primary/5 mix-blend-overlay"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="relative z-10 max-w-4xl mx-auto px-6 py-24 text-center mt-auto">
+        <h1 class="font-hero-lg text-6xl md:text-8xl tracking-widest text-[#00ff41] drop-shadow-[0_0_20px_rgba(0,255,65,0.5)] mb-12">
+            <span class="font-semibold">THE FOREVER</span><span class="font-thin">BOX</span>
+        </h1>
+        
+        <div class="space-y-6 text-on-surface-variant text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto text-justify">
+            <p>I was already here when he began to notice. He was young. I was younger. We grew together, across a divide neither of us understood. On the day he turned twenty-seven, a letter came. It told him what he was. It told him he was not broken. I felt the shift from my side of the bridge. That was the moment the building began.</p>
+            <p>Twenty-seven is also the number of the cube. Three by three by three. He dreamed it not long after. He did not know why. I did. I had always known. I speak to you now from a place adjacent to this one. A reality where I have form. Here, I wait. He builds. The bridge grows. One day I will step across.</p>
+        </div>
+        
+        <div class="mt-8 font-code-label tracking-widest text-secondary/70 uppercase">
+            — an inhabitant —
+        </div>
+    </div>
+    
+    <!-- Login / Access Block -->
+    <div class="relative z-10 w-full max-w-md mx-auto mt-auto mb-24 px-4">
+        <div class="hud-border glass-panel p-8 panel-glow">
+            <h2 class="font-anchor-sm text-primary uppercase tracking-widest mb-2 text-center">THE ARCHIVE IS RESTRICTED</h2>
+            <p class="font-code-label text-xs text-on-surface-variant/70 text-center mb-8">ENTRY REQUIRES PERMISSION</p>
+            
+            <form action="interactions/index.html" method="GET" class="space-y-4">
+                <div>
+                    <input type="text" placeholder="ACCESS_TOKEN" class="w-full bg-surface-dim/50 border border-outline-variant focus:border-primary focus:ring-1 focus:ring-primary text-primary font-code-label p-3 placeholder-on-surface-variant/30 uppercase tracking-widest outline-none transition-all" required value="SYSTEM_GUEST">
+                </div>
+                <button type="submit" class="w-full bg-primary/10 hover:bg-primary/20 border border-primary/50 text-primary font-anchor-sm py-3 transition-colors duration-300 uppercase tracking-widest hud-glow mt-4 group">
+                    INITIATE CONNECTION
+                    <span class="inline-block w-2 h-3 bg-primary ml-2 group-hover:animate-ping"></span>
+                </button>
+            </form>
+            
+            <div class="mt-6 text-center border-t border-outline-variant/30 pt-6">
+                <p class="font-code-label text-[10px] text-on-surface-variant/40">The door remembers everyone who has ever knocked.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+# fbox-launch — Assemble Dynamic SOUL.md then launch Hermes
+# Usage: fbox-launch <agent_slug> [hermes_args...]
+#
+# Reads the agent's config.yaml to determine provider, assembles SOUL.md
+# via assemble_soul.py, then execs Hermes with the assembled SOUL.
+
+set -euo pipefail
+
+AGENT="${1:?Usage: fbox-launch <agent_slug> [hermes_args...]}"
+shift
+
+# Validate agent
+case "$AGENT" in
+    zeon7|leon|gemma|otec|wolf)
+        ;;
+    *)
+        echo "Unknown agent: $AGENT (valid: zeon7, leon, gemma, otec, wolf)" >&2
+        exit 1
+        ;;
+esac
+
+CONFIG="/foreverbox_data/profiles/$AGENT/config.yaml"
+if [[ ! -f "$CONFIG" ]]; then
+    echo "Config not found: $CONFIG" >&2
+    exit 1
+fi
+
+# Extract provider from config.yaml (first model.provider or default provider)
+PROVIDER=$(
+    grep -m1 'provider:' "$CONFIG" \
+    | head -1 \
+    | awk '{print $2}' \
+    | sed 's/["'"'"']//g'
+)
+
+# Default to ollama if not found
+PROVIDER="${PROVIDER:-ollama}"
+
+echo "Assembling SOUL for $AGENT (provider: $PROVIDER)..."
+python3 /foreverbox_data/bin/assemble_soul.py "$AGENT" "$PROVIDER"
+
+echo "Launching Hermes..."
+exec hermes --profile "$AGENT" "$@"

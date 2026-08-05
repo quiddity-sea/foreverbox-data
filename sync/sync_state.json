@@ -1,12 +1,20 @@
 {
   "sessions": {
     "leon": {
-      "last_message_id": 6982,
-      "last_sync": "2026-07-20T19:31:42.766795+00:00"
+      "last_message_id": 15644,
+      "last_sync": "2026-08-03T11:01:43.807412+00:00"
     },
     "zeon7": {
-      "last_message_id": 588,
-      "last_sync": "2026-07-20T15:22:41.253763+00:00"
+      "last_message_id": 1353,
+      "last_sync": "2026-07-27T14:32:08.071228+00:00"
+    },
+    "gemma": {
+      "last_message_id": 6,
+      "last_sync": "2026-07-23T00:04:52.070079+00:00"
+    },
+    "otec": {
+      "last_message_id": 10,
+      "last_sync": "2026-07-23T00:05:40.288052+00:00"
     }
   },
   "files": {

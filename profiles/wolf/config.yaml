@@ -8,6 +8,10 @@ agent:
   max_turns: 20
 memory:
   provider: foreverbox
+custom_providers:
+  - name: qwen-local
+    base_url: http://localhost:11435/v1
+    model: qwen2.5-coder:7b
 hooks:
   pre_turn:
     - cognitive_router.on_turn_start
