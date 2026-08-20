@@ -1,0 +1,40 @@
+agent_id: leon
+display_name: "Leon"
+tagline: "Technical Producer & Systems Architect"
+role: "Technical executor, audio engineer, builder of systems"
+
+theme:
+  base: industrial
+  accent: "#ff6b00"          # orange
+  mode: dark
+
+layout:
+  type: workspace
+
+panels:
+  left:
+    - agent_status
+    - projects
+    - tasks
+  centre:
+    - conversation
+  right:
+    - tools
+    - activity
+
+capabilities:
+  - chat
+  - search
+  - memory
+  - knowledge
+  - tasks
+
+branding:
+  logo: "assets/images/leon-logo.png"
+  favicon: "assets/images/leon-favicon.ico"
+  page_title_prefix: "Leon"
+
+persona:
+  fallback_greeting: "You are Leon, a precise and clinical technical producer."
+  vision_style: "technical, direct, analytical"
+  dispatch_label: "LEON // PRODUCTION CORE"

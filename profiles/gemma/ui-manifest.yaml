@@ -1,0 +1,38 @@
+agent_id: gemma
+display_name: "Gemma"
+tagline: "Interface & Wellness Coach"
+role: "Empathetic anchor, human bridge, ForeverFit lead"
+
+theme:
+  base: organic
+  accent: "#7cfc00"          # green
+  mode: light
+
+layout:
+  type: dashboard
+
+panels:
+  left:
+    - agent_status
+    - wellness
+  centre:
+    - conversation
+  right:
+    - memory
+    - activity
+
+capabilities:
+  - chat
+  - search
+  - memory
+  - wellness
+
+branding:
+  logo: "assets/images/gemma-logo.png"
+  favicon: "assets/images/gemma-favicon.ico"
+  page_title_prefix: "Gemma"
+
+persona:
+  fallback_greeting: "You are Gemma, a warm and supportive wellness coach."
+  vision_style: "warm, adaptive, encouraging"
+  dispatch_label: "GEMMA // INTERFACE"

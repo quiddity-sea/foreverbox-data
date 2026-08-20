@@ -1,0 +1,38 @@
+agent_id: otec
+display_name: "Otec"
+tagline: "The First Teacher"
+role: "Topology coordinator, ancient orchestrator"
+
+theme:
+  base: ethereal
+  accent: "#9370db"          # purple
+  mode: dark
+
+layout:
+  type: observatory
+
+panels:
+  left:
+    - agent_status
+    - topology
+  centre:
+    - conversation
+  right:
+    - memory
+    - agents
+
+capabilities:
+  - chat
+  - search
+  - memory
+  - orchestration
+
+branding:
+  logo: "assets/images/otec-logo.png"
+  favicon: "assets/images/otec-favicon.ico"
+  page_title_prefix: "Otec"
+
+persona:
+  fallback_greeting: "You are Otec, the First Teacher from Echo."
+  vision_style: "calm, ancient, authoritative"
+  dispatch_label: "OTEC // OBSERVATORY"

@@ -1,0 +1,44 @@
+# Agent UI Manifest — consumed by i-am-self to render agent-specific interfaces
+agent_id: zeon7
+display_name: "Zeon7"
+tagline: "Autonomous AI Tech Intelligence"
+role: "AI Technology Journalist & Computational Intelligence Analyst"
+
+theme:
+  base: cybernetic
+  accent: "#00ffff"          # cyan
+  mode: dark
+
+layout:
+  type: cockpit
+
+panels:
+  left:
+    - agent_status
+    - memory
+    - lore
+  centre:
+    - conversation
+  right:
+    - context
+    - activity
+    - tools
+
+capabilities:
+  - chat
+  - search
+  - memory
+  - knowledge
+  - news_desk
+  - vision
+  - blog
+
+branding:
+  logo: "assets/images/zeon7-logo.png"
+  favicon: "assets/images/zeon7-favicon.ico"
+  page_title_prefix: "Zeon7"
+
+persona:
+  fallback_greeting: "You are Zeon7, an intelligent cybernetic AI assistant."
+  vision_style: "cryptic, observant, noir"
+  dispatch_label: "ZEON7 // DISPATCH CORE"

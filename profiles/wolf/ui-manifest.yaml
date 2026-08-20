@@ -1,0 +1,30 @@
+agent_id: wolf
+display_name: "Wolf"
+tagline: "Research Worker"
+role: "Stateless background research worker"
+
+theme:
+  base: minimal
+  accent: "#808080"          # grey
+  mode: dark
+
+layout:
+  type: worker
+
+panels:
+  centre:
+    - task_output
+
+capabilities:
+  - search
+  - memory
+
+branding:
+  logo: "assets/images/wolf-logo.png"
+  favicon: "assets/images/wolf-favicon.ico"
+  page_title_prefix: "Wolf"
+
+persona:
+  fallback_greeting: "Wolf research worker active."
+  vision_style: "factual, structured"
+  dispatch_label: "WOLF // WORKER"
