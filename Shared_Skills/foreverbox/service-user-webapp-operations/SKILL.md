@@ -32,7 +32,7 @@ Notes:
 - `/tmp` is unreadable to www-data — the script must live in the site dir while running.
 - CRLF files (e.g. Plutus `assets/js/app.js`): normalise `\r\n`→`\n`, patch, restore, or the Python `\n`-only old-string silently MISSes.
 - For PHP edits prefer `patch` scripts that assert the anchor exists (`if old not in content: print MISS`) so a shifted anchor is caught instead of silently skipped.
-- Batch installs: `sudo cp` each file, then `sudo chown -R www-data:www-data` + `chmod 644` the whole set.
+- For batch installs: `sudo cp` each file, then `sudo chown -R www-data:www-data` + `chmod 644` the whole set.
 
 ## Git as the service user
 
@@ -66,6 +66,32 @@ sudo -u www-data bash /var/www/<site>/scripts/smoke_staging.sh   # expect 7/7
 The smoke test's "anonymised data present" check is the leak guard — if it fails,
 the sync overwrote db.php. Also re-apply any DB migrations to the staging DB and
 re-deploy `dist/` (build output is excluded from the rsync but index.php references it).
+
+## WSL2 mirrored networking + Hyper-V firewall (CRITICAL for LAN access)
+
+When WSL2 runs in **mirrored networking mode** (the default on Windows 11 22H2+),
+the Linux instance shares the host's LAN IP (e.g. `192.168.0.31`). Apache listens on
+`0.0.0.0:80/443` inside WSL, but **Windows cannot reach it via the LAN IP** —
+`Test-NetConnection 192.168.0.31 -Port 80` fails with "TCP connect failed", while
+`localhost:80` works.
+
+**Root cause**: WSL2 mirrored networking routes traffic through the Hyper-V virtual
+switch. A separate **Hyper-V firewall** (distinct from Windows Firewall) has
+`DefaultInboundAction = Block` and no rule allowing inbound 80/443/22 to the WSL VM.
+Loopback (`localhost:80`) bypasses the Hyper-V firewall, which is why it works.
+
+**Fix** — run in **admin PowerShell** (one line, quoted "TCP"):
+
+```powershell
+New-NetFirewallHyperVRule -Name "WSL-Inbound-Web" -DisplayName "WSL Inbound Web (80,443,22)" -Direction Inbound -Protocol "TCP" -LocalPorts 80,443,22 -Action Allow -VMCreatorId "{40E0AC32-46A5-438A-A0B2-2B479E8F2E90}"
+```
+
+The `VMCreatorId` is the WSL instance ID (run `Get-NetFirewallHyperVVMSetting` to find it).
+After adding the rule, `Test-NetConnection 192.168.0.31 -Port 80` returns `True`.
+
+**Note**: This is a Hyper-V firewall rule, NOT a Windows Firewall rule. The Hyper-V
+firewall has `DefaultInboundAction = Block` by default. The `VMCreatorId` scopes
+the rule to the WSL VM only — it does not open the entire host.
 
 ## Verification pattern (ad-hoc, read-only)
 

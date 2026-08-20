@@ -1,9 +1,10 @@
 model:
-  default: Zeon7-Gemma:64k
-  provider: custom
+  default: Brain32:latest
+  provider: custom:g4
   base_url: http://localhost:11434/v1
   ollama_num_ctx: 65536
   context_length: 1000000
+  api_mode: chat_completions
 memory:
   provider: foreverbox
 approvals:

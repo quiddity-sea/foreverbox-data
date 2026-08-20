@@ -47,6 +47,13 @@ memories/
 pairing/
 sandboxes/
 backups/
+*.log
+*.pid
+*.heartbeat
+gateway-starts.log
+chrome-debug/
+profiles/*/chrome-debug/
+profiles/*/state/
 
 # ── Cron state ─────────────────────────────────────────────
 cron/
@@ -56,6 +63,7 @@ cron/
 Thumbs.db
 *.swp
 *~
+*:Zone.Identifier
 
 # ── Build artifacts & dependencies ─────────────────────────
 node_modules/

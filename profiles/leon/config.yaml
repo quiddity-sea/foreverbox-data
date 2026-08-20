@@ -1,7 +1,7 @@
 model:
-  default: qwen3-8b-q4km:latest
-  provider: custom:g4
-  base_url: http://localhost:11434/v1
+  default: nvidia/nemotron-3-ultra-550b-a55b:free
+  provider: openrouter
+  base_url: https://openrouter.ai/api/v1
   ollama_num_ctx: 65536
   context_length: 1048576
   api_mode: chat_completions
