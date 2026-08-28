@@ -13,10 +13,10 @@ from pathlib import Path
 
 # Database configuration
 DB_CONFIG = {
-    'host': 'localhost',
-    'user': 'zeon7_user',
-    'password': 'F0reverb0x#2o26sql',
-    'database': 'agent_registry'
+    'host': os.environ.get('DB_HOST', 'localhost'),
+    'user': os.environ.get('DB_USER', 'zeon7_user'),
+    'password': os.environ.get('DB_PASSWORD') or os.environ.get('FOREVERBOX_DB_PASS') or 'F0reverb0x#2o26sql',
+    'database': os.environ.get('DB_NAME', 'agent_registry')
 }
 
 # Provider detection
@@ -125,12 +125,12 @@ def write_soul_file(agent_slug, content):
 def main():
     if len(sys.argv) < 2:
         print("Usage: python3 assemble_soul.py <agent_slug> [provider]")
-        print("Agent slugs: zeon7, leon, gemma, otec")
+        print("Agent slugs: zeon7, leon, gemma, otec, wolf")
         print("Providers: ollama, openrouter, deepseek, anthropic (default: auto-detect)")
         sys.exit(1)
     
     agent_slug = sys.argv[1].lower()
-    valid_agents = ['zeon7', 'leon', 'gemma', 'otec']
+    valid_agents = ['zeon7', 'leon', 'gemma', 'otec', 'wolf']
     
     if agent_slug not in valid_agents:
         print(f"Unknown agent: {agent_slug}. Valid: {valid_agents}")

@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
 # fbox-launch — Assemble Dynamic SOUL.md then launch Hermes
-# Usage: fbox-launch <agent_slug> [hermes_args...]
+# Usage: fbox-launch <agent_slug> [--head <head_name>] [hermes_args...]
 #
-# Reads the agent's config.yaml to determine provider, assembles SOUL.md
-# via assemble_soul.py, then execs Hermes with the assembled SOUL.
+# Assembles SOUL.md via assemble_soul.py, then execs Hermes with the assembled SOUL.
 
 set -euo pipefail
 
-AGENT="${1:?Usage: fbox-launch <agent_slug> [hermes_args...]}"
+AGENT="${1:?Usage: fbox-launch <agent_slug> [--head <head_name>] [hermes_args...]}"
 shift
 
 # Validate agent
@@ -26,19 +25,26 @@ if [[ ! -f "$CONFIG" ]]; then
     exit 1
 fi
 
-# Extract provider from config.yaml (first model.provider or default provider)
-PROVIDER=$(
-    grep -m1 'provider:' "$CONFIG" \
-    | head -1 \
-    | awk '{print $2}' \
-    | sed 's/["'"'"']//g'
-)
+HEAD=""
+# Check for --head argument
+if [[ "${1:-}" == "--head" ]]; then
+    HEAD="${2:-}"
+    shift 2
+fi
 
-# Default to ollama if not found
-PROVIDER="${PROVIDER:-ollama}"
+if [[ -z "$HEAD" ]]; then
+    # Fallback to extracting provider from config.yaml if no explicit head is given
+    PROVIDER=$(
+        grep -m1 'provider:' "$CONFIG" \
+        | head -1 \
+        | awk '{print $2}' \
+        | sed 's/["'"'"']//g'
+    )
+    HEAD="${PROVIDER:-ollama}"
+fi
 
-echo "Assembling SOUL for $AGENT (provider: $PROVIDER)..."
-python3 /foreverbox_data/bin/assemble_soul.py "$AGENT" "$PROVIDER"
+echo "Assembling SOUL for $AGENT (head/provider: $HEAD)..."
+python3 /foreverbox_data/bin/assemble_soul.py "$AGENT" "$HEAD"
 
 echo "Launching Hermes..."
 exec hermes --profile "$AGENT" "$@"

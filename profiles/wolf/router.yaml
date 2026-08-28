@@ -1,0 +1,71 @@
+# Council Library — Cognitive Router Configuration
+# Blueprint §5.3
+
+model_profiles:
+  layer_1_intuitive_reflex:
+    provider: "ollama"
+    model: "Zeon7-Gemma:64k"
+    base_url: "http://localhost:11434"
+    max_tokens: 8192
+    temperature: 0.4
+    tags: ["local", "private", "personality", "fast"]
+
+  layer_2_analytical_engine:
+    provider: "openrouter"
+    model: "qwen/qwen3-32b:free"
+    max_tokens: 32768
+    temperature: 0.2
+    tags: ["reasoning", "coding", "cloud", "free_tier"]
+
+  layer_3_deep_architect:
+    provider: "openrouter"
+    model: "deepseek/deepseek-v4-pro"
+    max_tokens: 131072
+    temperature: 0.1
+    tags: ["architect", "heavy_reasoning", "planning", "cloud"]
+
+router:
+  enabled: true
+  privacy_scan_enabled: true
+  private_patterns:
+    - "api[_-]?key"
+    - "secret"
+    - "password"
+    - "token"
+    - "/home/"
+    - "/Users/"
+    - "C:\\\\Users\\\\"
+
+  daily_budget_tokens:
+    layer_3_deep_architect: 500000
+    layer_2_analytical_engine: 2000000
+
+agent_overrides:
+  curator:
+    layer_1_intuitive_reflex:
+      model: "Zeon7-Gemma:64k"
+    layer_2_analytical_engine:
+      model: "deepseek/deepseek-v4-flash"
+  producer:
+    layer_1_intuitive_reflex:
+      model: "deepseek/deepseek-v4-flash"
+    layer_2_analytical_engine:
+      model: "qwen/qwen3-coder:free"
+  coach:
+    layer_1_intuitive_reflex:
+      model: "Zeon7-Gemma:64k"
+    layer_2_analytical_engine:
+      model: "deepseek/deepseek-v4-flash"
+  director:
+    layer_1_intuitive_reflex:
+      model: "deepseek/deepseek-v4-flash"
+    layer_2_analytical_engine:
+      model: "nvidia/nemotron-3-super-120b-a12b:free"
+
+wolf_overrides:
+  layer_1_intuitive_reflex:
+    model: "google/gemini-3.1-flash-lite"
+  layer_2_analytical_engine:
+    model: "deepseek/deepseek-v4-flash"
+  layer_3_deep_architect:
+    model: "deepseek/deepseek-v4-flash"
