@@ -38,10 +38,16 @@ async def chat_completions(request: Request):
         "--query", last_message
     ]
     
-    if override_model:
-        cmd.extend(["-m", str(override_model)])
-    if override_provider:
-        cmd.extend(["--provider", str(override_provider)])
+    # Only append -m if a non-empty model string was provided
+    if override_model and str(override_model).strip():
+        cmd.extend(["-m", str(override_model).strip()])
+        
+    # Map provider alias if provided
+    if override_provider and str(override_provider).strip():
+        prov = str(override_provider).strip().lower()
+        if prov == "ollama":
+            prov = "custom:g4"
+        cmd.extend(["--provider", prov])
         
     env = os.environ.copy()
     env_file = os.path.expanduser("~/.hermes/.env")
@@ -71,8 +77,10 @@ async def chat_completions(request: Request):
     except subprocess.TimeoutExpired:
         reply = f"Error: Hermes execution for agent '{profile}' exceeded 280-second timeout."
     except subprocess.CalledProcessError as e:
-        err_out = e.stderr.strip() or e.stdout.strip()
-        reply = f"Error from Hermes ({profile}): {err_out}"
+        combined = f"{e.stderr}\n{e.stdout}".strip()
+        lines = [l for l in combined.splitlines() if not l.strip().startswith("session_id:")]
+        clean_err = "\n".join(lines).strip() or combined
+        reply = f"Error from Hermes ({profile}): {clean_err}"
     except Exception as e:
         reply = f"System Gateway Error ({profile}): {str(e)}"
     
