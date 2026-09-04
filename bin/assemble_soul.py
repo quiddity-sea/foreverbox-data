@@ -13,8 +13,8 @@ from pathlib import Path
 
 # Database configuration
 DB_CONFIG = {
-    'host': os.environ.get('DB_HOST', 'localhost'),
-    'user': os.environ.get('DB_USER', 'zeon7_user'),
+    'host': os.environ.get('DB_HOST', '100.126.174.30'),
+    'user': os.environ.get('DB_USER', 'zeon7'),
     'password': os.environ.get('DB_PASSWORD') or os.environ.get('FOREVERBOX_DB_PASS') or 'F0reverb0x#2o26sql',
     'database': os.environ.get('DB_NAME', 'agent_registry')
 }
