@@ -1,4 +1,4 @@
-﻿# ForeverBox Data — Sovereign Agent Matrix & Data Ecosystem
+# ForeverBox Data — Sovereign Agent Matrix & Data Ecosystem
 
 [![Architecture](https://img.shields.io/badge/Architecture-Sovereign_AI-00f2fe?style=for-the-badge&logo=cpu)](https://foreverbox.co.uk)
 [![Hermes Agent](https://img.shields.io/badge/Agent_Engine-Hermes_2.0-ff007f?style=for-the-badge&logo=terminal)](https://github.com/NousResearch/Hermes-Agent)
@@ -24,8 +24,12 @@ The repository bridges local consumer hardware (WSL2 / Welsh physical node) and 
 
 ---
 
-## 🚀 Recent Build Upgrades & New Capabilities
-
+- **Unified Knowledge Ingestion Pipeline**:
+  - Unified web UI document uploads (`admin/knowledge.php`) and CLI/cron scanners into a single canonical pipeline where the **Quiddity Lore Sea filesystem is the source of truth**.
+  - All documents (.md, .txt, .pdf) are saved directly into `/foreverbox_data/Quiddity_Lore_Sea/`, registered in `quiddity_commons.quiddity_files`, chunked (1,000-char paragraph boundaries), embedded via 384-dimensional `all-MiniLM-L6-v2`, and persisted into `quiddity_vector_references`.
+- **Council Embedding Microservice (`council-embedding.service`)**:
+  - Deployed a dedicated CPU-optimized sentence-transformers daemon on `http://127.0.0.1:8900` using a lightweight PyTorch environment (`/foreverbox_data/council-venv`).
+  - Automatically started and monitored with systemd `Restart=always` and auto-wakeup pre-flight checks in `IngestionService.php`.
 - **Hermes Gateway Daemon (`hermes_openai_proxy.py`)**:
   - Built and deployed a high-performance FastAPI proxy listening on `http://127.0.0.1:8081/v1/chat/completions`.
   - Translates incoming standard chat completions into headless, non-interactive Hermes CLI calls (`hermes --profile zeon7 chat -Q --yolo --accept-hooks --query "<prompt>"`).
