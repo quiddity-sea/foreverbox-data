@@ -9,6 +9,16 @@ app = FastAPI(title="ForeverBox Hermes Gateway", version="2.0")
 
 VALID_PROFILES = {"zeon7", "leon", "gemma", "otec", "wolf"}
 
+@app.get("/")
+@app.get("/health")
+@app.get("/v1/models")
+async def health():
+    return {
+        "status": "ok",
+        "service": "hermes-gateway",
+        "valid_profiles": list(VALID_PROFILES)
+    }
+
 @app.post("/v1/chat/completions")
 async def chat_completions(request: Request):
     data = await request.json()
@@ -26,29 +36,6 @@ async def chat_completions(request: Request):
     override_model = data.get("override_model")
     override_provider = data.get("override_provider")
     
-    hermes_bin = "/foreverbox_data/venv/bin/hermes"
-    if not os.path.exists(hermes_bin):
-        hermes_bin = "hermes"
-
-    cmd = [
-        hermes_bin,
-        "--profile", profile,
-        "chat",
-        "-Q", "--yolo", "--accept-hooks",
-        "--query", last_message
-    ]
-    
-    # Only append -m if a non-empty model string was provided
-    if override_model and str(override_model).strip():
-        cmd.extend(["-m", str(override_model).strip()])
-        
-    # Map provider alias if provided
-    if override_provider and str(override_provider).strip():
-        prov = str(override_provider).strip().lower()
-        if prov == "ollama":
-            prov = "custom:g4"
-        cmd.extend(["--provider", prov])
-        
     env = os.environ.copy()
     env_file = os.path.expanduser("~/.hermes/.env")
     if not os.path.exists(env_file):
@@ -63,6 +50,52 @@ async def chat_completions(request: Request):
                         env[k.strip()] = v.strip()
         except Exception:
             pass
+
+    hermes_bin = "/foreverbox_data/venv/bin/hermes"
+    if not os.path.exists(hermes_bin):
+        hermes_bin = "hermes"
+
+    cmd = [
+        hermes_bin,
+        "--profile", profile,
+        "chat",
+        "-Q", "--yolo", "--accept-hooks",
+        "--query", last_message
+    ]
+    
+    active_model = override_model
+    active_prov = override_provider
+
+    if active_prov and str(active_prov).strip():
+        prov = str(active_prov).strip().lower()
+        if prov == "ollama":
+            # Test if Ollama endpoint is reachable
+            ollama_reachable = False
+            for test_url in ["http://127.0.0.1:11434/api/tags", "http://100.106.5.121:11434/api/tags"]:
+                try:
+                    import urllib.request
+                    with urllib.request.urlopen(test_url, timeout=1.0) as resp:
+                        if resp.status == 200:
+                            ollama_reachable = True
+                            break
+                except Exception:
+                    pass
+            
+            if ollama_reachable:
+                prov = "custom:g4"
+            elif env.get("GEMINI_API_KEY") or env.get("GOOGLE_API_KEY"):
+                # Fallback to Gemini if Ollama host is offline
+                prov = "gemini"
+                if not active_model or "brain32" in str(active_model).lower():
+                    active_model = "gemini-2.5-flash"
+            else:
+                prov = "custom:g4"
+                
+        cmd.extend(["--provider", prov])
+
+    # Only append -m if a non-empty model string was provided
+    if active_model and str(active_model).strip():
+        cmd.extend(["-m", str(active_model).strip()])
 
     try:
         result = subprocess.run(
@@ -108,4 +141,4 @@ async def chat_completions(request: Request):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8081)
+    uvicorn.run(app, host="127.0.0.1", port=8081, loop="asyncio", ws="none")
